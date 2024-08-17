@@ -9,9 +9,12 @@ readme = "README.md"
 python = "^3.11"
 cohere = "^5.8.0"
 pandas = "^2.2.2"
-numpy = "^2.0.1"
 python-dotenv = "^1.0.1"
 ipykernel = "^6.29.5"
+ragas = "^0.1.14"
+datasets = "^2.21.0"
+langchain-cohere = "^0.2.2"
+langchain-openai = "^0.1.22"
 
 
 [build-system]
