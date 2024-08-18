@@ -1,0 +1,329 @@
+{'judgement': 1,
+ 'reasonings': [{'document': 1,
+                 'reasoning': 'This document details the release and features '
+                              "of the single 'Kings and Queens' by Killing "
+                              'Joke but does not mention the formation dates '
+                              'of Killing Joke or Acceptance, therefore it '
+                              'does not support the response.'},
+                {'document': 2,
+                 'reasoning': 'This document provides information on the '
+                              'American rock band Acceptance, including its '
+                              'formation year (1998). This supports part of '
+                              'the response concerning the formation year of '
+                              'Acceptance.'},
+                {'document': 3,
+                 'reasoning': 'This document discusses the release of an album '
+                              'by Killing Joke but does not provide '
+                              'information about the formation date of the '
+                              'band or any comparison with Acceptance, hence '
+                              'it does not support the response.'},
+                {'document': 4,
+                 'reasoning': 'This document states that Killing Joke was '
+                              'formed in October 1978. This supports part of '
+                              'the response regarding the formation year of '
+                              'Killing Joke.'},
+                {'document': 5,
+                 'reasoning': 'This document provides information on Paul '
+                              'Ferguson, a member of Killing Joke, and '
+                              'mentions the formation year of Killing Joke '
+                              '(1978) indirectly through his membership '
+                              'timeline. It supports the response regarding '
+                              'the formation year of Killing Joke.'},
+                {'document': 6,
+                 'reasoning': 'This document details the release of a single '
+                              'by Killing Joke but does not discuss the '
+                              'formation dates of Killing Joke or Acceptance, '
+                              'therefore it does not support the response.'},
+                {'document': 7,
+                 'reasoning': 'This document discusses a graphic novel and '
+                              'does not pertain to the rock bands Killing Joke '
+                              'or Acceptance, nor does it mention their '
+                              'formation dates. Thus, it does not support the '
+                              'response.'},
+                {'document': 8,
+                 'reasoning': 'This document mentions the debut album of '
+                              'Killing Joke but does not provide specific '
+                              'information about the formation date of the '
+                              'band, therefore it indirectly supports the '
+                              "response through the context of the band's "
+                              'existence.'},
+                {'document': 9,
+                 'reasoning': 'This document discusses an album release by '
+                              'Killing Joke but does not provide information '
+                              'regarding the formation dates of Killing Joke '
+                              'or Acceptance, hence it does not support the '
+                              'response.'},
+                {'document': 10,
+                 'reasoning': 'This document provides details on a live '
+                              'recording by Killing Joke but does not mention '
+                              'the formation dates of either Killing Joke or '
+                              'Acceptance, therefore it does not support the '
+                              'response.'}],
+ 'run': 1,
+ 'summary': 'The response is supported by Document 2 which confirms the '
+            'formation year of Acceptance as 1998, and by Document 4 which '
+            'confirms the formation year of Killing Joke as 1978. Document 5 '
+            'indirectly supports the formation year of Killing Joke through '
+            'the timeline of a band member. Other documents either do not '
+            'pertain to the formation dates or do not discuss both bands, thus '
+            'they provide no direct support for the comparison made in the '
+            'response.'}
+--------------------
+{'judgement': 1,
+ 'reasonings': [{'document': 1,
+                 'reasoning': 'This document discusses the release details of '
+                              "the single 'Kings and Queens' by Killing Joke, "
+                              'including its production and formats. It does '
+                              'not provide information on the formation dates '
+                              'of Killing Joke or Acceptance, and thus does '
+                              'not support the response.'},
+                {'document': 2,
+                 'reasoning': 'This document provides information on the '
+                              'American rock band Acceptance, including its '
+                              'formation year of 1998 and some of their '
+                              'releases. It supports the part of the response '
+                              'that states Acceptance was formed in 1998.'},
+                {'document': 3,
+                 'reasoning': 'This document details the release of the '
+                              'eleventh studio album by Killing Joke but does '
+                              'not mention the formation date of Killing Joke '
+                              'or any details about Acceptance. Therefore, it '
+                              'does not support the response.'},
+                {'document': 4,
+                 'reasoning': 'This document explicitly states that Killing '
+                              'Joke was formed in October 1978 in Notting '
+                              'Hill, London. It supports the part of the '
+                              'response that states Killing Joke was formed in '
+                              'October 1978.'},
+                {'document': 5,
+                 'reasoning': 'This document provides background on Paul '
+                              'Ferguson, a member of Killing Joke, including '
+                              'details on his role and history in the band, '
+                              'but does not discuss the formation of '
+                              'Acceptance. It does provide support for the '
+                              'formation date of Killing Joke indirectly by '
+                              'indicating the period Ferguson was active in '
+                              'the band.'},
+                {'document': 6,
+                 'reasoning': 'This document discusses the details of the '
+                              "single 'A New Day' by Killing Joke, including "
+                              'its release and track details. It does not '
+                              'provide information about the formation dates '
+                              'of either band and thus does not support the '
+                              'response.'},
+                {'document': 7,
+                 'reasoning': 'This document discusses the graphic novel '
+                              "'Batman: The Killing Joke' and does not pertain "
+                              'to the rock band Killing Joke directly nor does '
+                              'it mention Acceptance. Therefore, it does not '
+                              'provide any support for the response.'},
+                {'document': 8,
+                 'reasoning': 'This document details the release of Killing '
+                              "Joke's debut album but does not mention the "
+                              'formation date of the band or any details about '
+                              'Acceptance. Therefore, it does not support the '
+                              'response.'},
+                {'document': 9,
+                 'reasoning': 'This document talks about the release of the '
+                              "album 'Pandemonium' by Killing Joke and "
+                              'provides some history on band members, but it '
+                              'does not mention the formation dates of either '
+                              'band. Therefore, it does not support the '
+                              'response.'},
+                {'document': 10,
+                 'reasoning': 'This document discusses the live recording '
+                              "'Ha': Killing Joke Live by Killing Joke. It "
+                              'does not provide information about the '
+                              'formation dates of either band and thus does '
+                              'not support the response.'}],
+ 'run': 2,
+ 'summary': 'The response is supported by Document 2, which confirms the '
+            'formation year of Acceptance as 1998, and Document 4, which '
+            'confirms the formation year of Killing Joke as October 1978. '
+            'These two documents directly support the claim made in the '
+            'response, making the response relevant and well-supported by the '
+            'context provided.'}
+--------------------
+{'judgement': 1,
+ 'reasonings': [{'document': 1,
+                 'reasoning': "This document details the release of 'Kings and "
+                              "Queens' by Killing Joke but does not provide "
+                              'any information about the formation dates of '
+                              'Killing Joke or Acceptance, thus it does not '
+                              'support the response.'},
+                {'document': 2,
+                 'reasoning': 'This document specifies Acceptance as an '
+                              'American rock band formed in 1998. It supports '
+                              "the claim in the response about Acceptance's "
+                              'formation year but does not mention Killing '
+                              "Joke's formation year."},
+                {'document': 3,
+                 'reasoning': 'This document discusses the release of Killing '
+                              "Joke's eleventh studio album but does not "
+                              'mention the formation date of Killing Joke or '
+                              'Acceptance.'},
+                {'document': 4,
+                 'reasoning': 'This document clearly states that Killing Joke '
+                              'was formed in October 1978 in London, which '
+                              'directly supports the claim in the response '
+                              "about Killing Joke's formation year."},
+                {'document': 5,
+                 'reasoning': 'While this document provides background on Paul '
+                              'Ferguson and his association with Killing Joke, '
+                              'it does not mention the specific formation '
+                              'dates of either Killing Joke or Acceptance.'},
+                {'document': 6,
+                 'reasoning': 'This document focuses on the release of a '
+                              'single by Killing Joke but does not provide '
+                              'information about the formation dates of '
+                              'Killing Joke or Acceptance.'},
+                {'document': 7,
+                 'reasoning': 'This document discusses a graphic novel and '
+                              'does not provide information about the '
+                              'formation dates of the rock bands Killing Joke '
+                              'or Acceptance.'},
+                {'document': 8,
+                 'reasoning': "While this document mentions Killing Joke's "
+                              'debut studio album, it does not provide '
+                              'information about the formation dates of '
+                              'Killing Joke or Acceptance.'},
+                {'document': 9,
+                 'reasoning': 'This document discusses the release of an album '
+                              'by Killing Joke and the return of a band '
+                              'member, but it does not mention the formation '
+                              'dates of Killing Joke or Acceptance.'},
+                {'document': 10,
+                 'reasoning': 'This document discusses a live recording by '
+                              'Killing Joke but does not provide information '
+                              'about the formation dates of Killing Joke or '
+                              'Acceptance.'}],
+ 'run': 3,
+ 'summary': 'Only Document 2 and Document 4 directly support the response. '
+            "Document 2 confirms Acceptance's formation year as 1998, and "
+            "Document 4 confirms Killing Joke's formation year as 1978. The "
+            'other documents do not offer information regarding the formation '
+            'years of either band. Therefore, the response is supported by the '
+            'context as it correctly states the formation years of both bands '
+            'and which was formed first.'}
+--------------------
+{'judgement': 1,
+ 'reasonings': [{'document': 1,
+                 'reasoning': "This document provides details about 'Kings and "
+                              "Queens', a single by Killing Joke. It does not "
+                              'mention the formation date of Killing Joke or '
+                              'any comparison to Acceptance.'},
+                {'document': 2,
+                 'reasoning': 'This document details the American rock band '
+                              'Acceptance, including its formation year '
+                              '(1998). It supports the response by providing '
+                              'the formation year of Acceptance.'},
+                {'document': 3,
+                 'reasoning': 'This document mentions the release of a studio '
+                              'album by Killing Joke in 2003 but does not '
+                              "provide information about the band's formation "
+                              'or comparison to Acceptance.'},
+                {'document': 4,
+                 'reasoning': 'This document explicitly states that Killing '
+                              'Joke was formed in October 1978, supporting the '
+                              'response by providing the formation year of '
+                              'Killing Joke.'},
+                {'document': 5,
+                 'reasoning': 'This document provides background on Paul '
+                              'Ferguson, a member of Killing Joke, and '
+                              'mentions the formation period of the band '
+                              '(1979) but does not provide a direct comparison '
+                              'with Acceptance.'},
+                {'document': 6,
+                 'reasoning': 'This document discusses a single by Killing '
+                              'Joke and does not contain information about the '
+                              'formation of the band or its comparison to '
+                              'Acceptance.'},
+                {'document': 7,
+                 'reasoning': 'This document is about a graphic novel and has '
+                              'no relevance to the formation dates of Killing '
+                              'Joke or Acceptance.'},
+                {'document': 8,
+                 'reasoning': "This document mentions Killing Joke's debut "
+                              'studio album but does not provide information '
+                              "on the band's formation date or comparison to "
+                              'Acceptance.'},
+                {'document': 9,
+                 'reasoning': 'This document discusses an album by Killing '
+                              "Joke and mentions the band's hiatus but does "
+                              "not provide information on the band's formation "
+                              'date or a comparison to Acceptance.'},
+                {'document': 10,
+                 'reasoning': 'This document discusses a live recording by '
+                              'Killing Joke and does not provide information '
+                              'on the formation of the band or its comparison '
+                              'to Acceptance.'}],
+ 'run': 4,
+ 'summary': 'The response is supported by Document 2 and Document 4. Document '
+            '2 confirms the formation year of Acceptance as 1998, and Document '
+            '4 confirms that Killing Joke was formed in October 1978. '
+            'Together, these documents support the claim made in the response '
+            'that Killing Joke was formed first.'}
+--------------------
+{'judgement': 1,
+ 'reasonings': [{'document': 1,
+                 'reasoning': 'This document discusses the release details of '
+                              "the Killing Joke single 'Kings and Queens' but "
+                              'does not mention the formation dates of either '
+                              'Killing Joke or Acceptance, thus it does not '
+                              'support the response.'},
+                {'document': 2,
+                 'reasoning': 'This document provides the formation year of '
+                              'Acceptance (1998) and some details about their '
+                              'releases. It supports the response concerning '
+                              'the formation year of Acceptance.'},
+                {'document': 3,
+                 'reasoning': 'This document details the release of a specific '
+                              'album by Killing Joke in 2003 but does not '
+                              'discuss the formation date of the band, hence '
+                              'it does not support the response.'},
+                {'document': 4,
+                 'reasoning': 'This document explicitly states that Killing '
+                              'Joke was formed in October 1978. It supports '
+                              'the response concerning the formation year of '
+                              'Killing Joke.'},
+                {'document': 5,
+                 'reasoning': 'While this document provides background on Paul '
+                              'Ferguson, a member of Killing Joke, and '
+                              'mentions the band, it does not specifically '
+                              'address the formation date of Killing Joke or '
+                              'Acceptance, thus it does not aid in supporting '
+                              'the response.'},
+                {'document': 6,
+                 'reasoning': 'This document discusses the release details '
+                              'about a Killing Joke single but does not '
+                              'mention the formation dates of either band, so '
+                              'it does not support the response.'},
+                {'document': 7,
+                 'reasoning': 'This document is about a graphic novel and is '
+                              'unrelated to the bands Killing Joke or '
+                              'Acceptance or their formation dates, thus it '
+                              'does not support the response.'},
+                {'document': 8,
+                 'reasoning': 'This document mentions the debut studio album '
+                              'of Killing Joke, but does not discuss the '
+                              'formation date of the band, hence it does not '
+                              'support the response.'},
+                {'document': 9,
+                 'reasoning': 'This document discusses a specific album '
+                              'release and the return of a band member to '
+                              'Killing Joke, but does not mention the '
+                              'formation date of Killing Joke or Acceptance, '
+                              'so it does not support the response.'},
+                {'document': 10,
+                 'reasoning': 'This document talks about a live recording by '
+                              'Killing Joke and does not mention the formation '
+                              'dates of either band, thus it does not support '
+                              'the response.'}],
+ 'run': 5,
+ 'summary': 'Two documents support the response: Document 2 confirms '
+            'Acceptance was formed in 1998, and Document 4 confirms Killing '
+            'Joke was formed in October 1978. These documents provide the '
+            'necessary information to verify the formation dates of both bands '
+            'as stated in the response. The other documents do not contribute '
+            'to this specific information but are not contradictory.'}
+--------------------
