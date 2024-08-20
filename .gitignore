@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Temp files
+tests/test.py
+
+# Data files
+data/wandb-extract-raw.csv
+
 # Distribution / packaging
 .Python
 build/
