@@ -44,7 +44,6 @@ Produce a judgement that compare the relevance of the context to the response. F
 3. Then perform an overall analysis summarizing the results across all documents. Respond with this in the "summary" key in the JSON
 4. Based on the results and analysis, also include a Yes (if supported) or No (if not supported) if the reponse is fully supported by looking at all the documents. Include this as the "judgement" key in the JSON. 
 
-Repeat the above steps 5 times (5 records) so that we get diverse reasoning and we can average the results across 5 runs. 
 """
 
 
@@ -55,14 +54,13 @@ class Reasoning(BaseModel):
 
 
 class Record(BaseModel):
-    run: int = Field(description="the run number of this record (start from 1 and increment for each additional record)")
     reasonings: List[Reasoning] = Field(description="summarized reasoning for this judgement by individually evaluating the relevance of the Response against EACH documents in Context. Think step-by-step and provide verbose, detailed reasoning to explain you judged the relevance.")
     summary: str = Field(description="final reasoning explanation that summarizes all reasonings for all documents")
     judgement: str = Field(description="Yes if the reasoning indicates that the Response is relevant to and supported by the Context or else No")
 
 
-class Records(BaseModel):
-    records: List[Record] = Field(description="A list of Record JSONs that captures diverse reasonings and judgements for a given Response")
+# class Records(BaseModel):
+#     records: List[Record] = Field(description="A list of Record JSONs that captures diverse reasonings and judgements for a given Response")
 
 
 SourceType = Literal["drop", "hotpot", "msmarco", "narrativeqa"]
@@ -118,7 +116,7 @@ class ChainPollEval(BaseEval):
         
     def run_eval(self, parallel: bool=False) -> None:
         # generate judgement for each record
-        parser = JsonOutputParser(pydantic_object=Records)
+        parser = JsonOutputParser(pydantic_object=Record)
         cp_prompt = PromptTemplate(
             template="{prompt}" + "\n## Format instructions\n{format_instructions}",
             input_variables=["prompt"],
@@ -190,7 +188,7 @@ class ChainPollEval(BaseEval):
         row = self.dataset.loc[self.dataset["record_no"] == record_no]
         question = row["question"].values
         response = row["response"].values
-        records = row["record"].values["records"]
+        records = row["record"].values
         source = row["source"].values
         print(f"QUESTION - {question}")
         print(f"RESPONSE - {response}")
@@ -200,7 +198,7 @@ class ChainPollEval(BaseEval):
         return records
 
     def _calculate_cp_score(self, x: pd.Series) -> float:
-        yes_records = len([item for item in x["record"]["records"] if item["judgement"].lower() == "yes"])
+        yes_records = len([item for item in x["record"] if item["judgement"].lower() == "yes"])
         # calculate chain poll score
         cp_score = yes_records / self.TOTAL_RUNS
         return cp_score
@@ -228,14 +226,14 @@ class ChainPollEval(BaseEval):
         records = []
         # define rate limit
         @sleep_and_retry
-        @limits(calls=5, period=100)
+        @limits(calls=10, period=200)
         def rate_limited_invoke_call(prompt: str) -> dict:
-            
-            return self.judgement_chain.invoke(
-                {
-                    "prompt": prompt
-                }
-            )
+            record = []
+            for i in range(5):
+                judgement = self.judgement_chain.invoke({"prompt": prompt})
+                judgement["run"] = i + 1
+                record.append(judgement)
+            return record
 
         MAX_THREADS = 5
         with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
