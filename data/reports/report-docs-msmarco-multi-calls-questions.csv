@@ -1,0 +1,630 @@
+,record_no,source,doc_type,question,response,score,cp_score,ragas_score
+0,1,msmarco,multi,what kind of benefit is fsa considered,"A flexible spending account (FSA) is considered a tax-advantaged benefit, allowing users to set aside pre-tax income for qualified expenses, primarily medical and dependent care expenses. This benefit is offered through employer-sponsored plans, often as part of a cafeteria plan, providing employees with flexibility in allocating their earnings towards eligible out-of-pocket costs.",True,1.0,1.0
+1,2,msmarco,multi,why does adaptation occur,"Adaptation occurs as a result of natural selection, where environmental changes favor individuals with certain traits, allowing them to survive and reproduce successfully. This leads to the accumulation of beneficial traits in subsequent generations, making the population better suited to their environment over time. Adaptation ensures organisms can eat, survive, and thrive in their specific habitats.",True,1.0,1.0
+2,3,msmarco,multi,what type of energy is a tesla coil,"A Tesla coil produces high-voltage, low-current, high-frequency alternating current electricity.",True,1.0,1.0
+3,4,msmarco,multi,where is el salvador,"El Salvador is a country in Central America, bordered on the southwest by the Pacific Ocean. It is located between Guatemala to the west and Honduras to the north and east. As the smallest country in Central America, it has a total area of 21,041 square kilometers (8,124.59 square miles).",True,1.0,1.0
+4,5,msmarco,multi,how do you test for hiv,"There are several ways to get tested for HIV:
+- Ask your doctor to perform an HIV test.
+- Visit a local HIV testing site, which can be found through the National HIV and STD Resources website.
+- Use a home test kit, such as the Home Access Test, where you collect a blood sample at home and mail it to a lab for testing.
+- Rapid HIV tests are also available, where a clinic staff member will prick your finger to collect a few drops of blood, and you can receive results in less than 30 minutes.
+- The OraSure test is used at many testing sites, where a probe is placed in your mouth between your cheek and gums for about 4 minutes.
+
+It is important to note that the window period for HIV testing, or the time it takes for antibodies to be detectable, is typically between 2 and 12 weeks after exposure. If you have been potentially exposed to HIV, it is recommended to get tested again at the 3-month mark to be confident of your status.",True,1.0,1.0
+5,6,msmarco,multi,what does testosterone free mean,"Testosterone free refers to the amount of testosterone in the blood that is not bound to a protein called sex hormone binding globulin (SHBG). Most of the testosterone in the blood is typically bound to SHBG, but a small portion is unattached or ""free."" This free testosterone is biologically active and can affect sexual traits and drive in both men and women.",True,1.0,0.8
+6,7,msmarco,multi,do palestinians have the vote,"No, many Palestinians do not have voting rights. In the context of Israel and Palestine, there are three types of Palestinians, and only one group has Israeli citizenship and voting rights. Even with this group, they make up a small minority of the voting population and have limited political representation. 
+
+The situation is further complicated by the division of Palestinian leadership between the Palestinian Authority (PA) and Hamas, which govern the West Bank and Gaza Strip, respectively. While the PA has limited autonomy and participates in diplomatic efforts, Hamas is considered a terrorist organization by many countries and does not engage in the same way with the international community. 
+
+The lack of voting rights for Palestinians has been a longstanding issue and a point of contention in the Israeli-Palestinian conflict. It is often seen as a symptom of the broader power dynamics and inequalities between Israelis and Palestinians.",True,1.0,0.375
+7,8,msmarco,multi,what kind of permit is a pool permit,"A pool permit is a combination permit that covers the construction of a swimming pool as well as the electrical, plumbing, and mechanical work directly related to the pool's construction. This type of permit is required for any private swimming pool, which is defined as a pool built on the grounds of a single-family residence and used solely by the owner, immediate family, tenants, and guests. It is important to note that additional permits, such as a sediment control permit, may also be necessary depending on the scale of the project.",True,0.8,0.9
+8,9,msmarco,multi,what does the disaster relief team provide,"Disaster relief teams provide a range of services and support to communities affected by disasters, such as hurricanes, earthquakes, and hurricanes. These teams offer immediate assistance and help lay the foundation for long-term recovery and rehabilitation.
+
+For example, the Office of U.S. Foreign Disaster Assistance (OFDA) supports programs that help people get back to their former jobs, provide psychosocial care to traumatized survivors, and empower individuals to rebuild their lives. 
+
+The Red Cross, while not a government agency, is also a crucial part of disaster relief, partnering with other organizations to provide various services to disaster victims. 
+
+Other disaster relief teams, like the National Disaster Medical System (NDMS), focus on medical response, providing emergency medical care, moving patients to unaffected areas, and offering definitive care at hospitals. 
+
+The Disaster Medical Assistance Team (DMAT) and the National Medical Response Team (NMRT) specialize in mass decontamination and medical care for victims of weapons of mass destruction or hazardous material incidents. 
+
+The Community Emergency Response Team (CERT) Program educates communities about disaster preparedness and trains them in basic disaster response skills, such as fire safety, light search and rescue, and team organization. 
+
+Overall, disaster relief teams provide a vital lifeline to communities in need, offering immediate assistance, medical care, and the tools and knowledge necessary for long-term recovery and resilience.",False,1.0,0.88
+9,10,msmarco,multi,standard measurement of an acre squared,"An acre is a unit of measurement used to describe the area of a piece of land. It is commonly used in the United States and is equal to 43,560 square feet. 
+
+When we talk about an ""acre squared,"" we are referring to the square of the area, which is calculated by multiplying an acre (as a unit of area) by itself. In this context, ""acre squared"" represents an area of 1 acre multiplied by another 1 acre, resulting in a new unit of measurement for a larger area. 
+
+However, it's important to note that ""acre squared"" is not a standard unit of measurement. The standard unit for land area in the United States is simply ""acre,"" and measurements are typically given in acres, with 1 acre equal to 43,560 square feet.",True,0.0,0.5833333333
+10,11,msmarco,multi,how long is gestation in bearded dragons,"The gestation period for bearded dragons is typically between 4 to 6 weeks, or about 30 to 45 days.",True,1.0,0.5
+11,12,msmarco,multi,actual cost of cremation,"The cost of cremation varies depending on location and the type of service provider. On average, the cost of cremation through a funeral home is between $2,000 and $4,000, while the average cost of cremation through a crematory is between $1,500 and $3,000. These prices typically include the cremation and a basic memorial service. 
+
+However, the simple act of cremating a body can cost as little as $500 and go up to $2,000, depending on the region. 
+
+It's important to note that these are just estimates, and the actual cost of cremation can vary depending on various factors, such as the type of container or casket chosen, the disposition of the ashes, and any additional services requested.",True,1.0,1.0
+12,13,msmarco,multi,what does isp do,"An Internet Service Provider (ISP) is a company that provides its customers with access to the internet and other related services. ISPs maintain a direct connection to the internet and often offer additional features such as web hosting, data center services, and email solutions. They act as a gateway to the internet, enabling users to send emails, shop online, conduct research, and access various online content and services. ISPs offer different plans and deals to cater to diverse user needs. Some examples of ISPs include AOL, Virgin, BT, TalkTalk, Comcast, Sprint, and CenturyLink, among others.",True,1.0,1.0
+13,14,msmarco,multi,what is an internal medicine specialist,"An internal medicine specialist, also known as an internist, is a physician who specializes in the medical care of adults, including the prevention, diagnosis, and treatment of a wide range of conditions affecting the internal organs and the body as a whole. Internists may work in hospitals, outpatient clinics, or have their own office-based practices, often with links to local hospitals. They can be generalists or subspecialize in areas such as cardiology, nephrology, immunology, and endocrinology.",True,1.0,1.0
+14,15,msmarco,multi,startup cost for lularoe,"The startup cost for LuLaRoe is estimated to be around $3,000 to $4,000 for inventory, depending on the line selections.",True,1.0,1.0
+15,16,msmarco,multi,what does medical practitioner mean,"A medical practitioner is a doctor or other healthcare professional who provides medical care and treatment to patients. They can work in a variety of settings, including hospitals, clinics, and private practices, and may specialize in different areas of medicine. Some medical practitioners may also conduct medical research or teach at medical schools. In some contexts, a medical practitioner may also be referred to as a ""clinician."" The specific definition of a medical practitioner can vary slightly depending on the region and the specific regulations governing medical practice.",False,0.6000000000000001,0.5833333333
+16,17,msmarco,multi,what is a muslim jurisdiction,"A Muslim jurisdiction refers to a legal system where Islamic law, known as Shariah, is applied. It governs the behavior of Muslim individuals and their relationships with themselves, their families, communities, and the wider Muslim community (Ummah). In countries like Saudi Arabia, Kuwait, and Yemen, where Islam is the official religion, Sharia is declared as the source of law, and the governments derive their legitimacy from it. Muslim jurisdictions have exclusive authority over Muslims and their boundaries are typically limited to respective states.",False,1.0,0.8333333333
+17,18,msmarco,multi,hip conditions that cause back pain,"There are several hip conditions that have been known to cause back pain. These include: 
+
+- Hip Osteoarthritis: A breakdown of cartilage in the hip joint that can lead to back, hip, and leg pain. This condition is often associated with arthritis in the back, which can make it challenging to pinpoint the exact source of pain. 
+
+- Hip Fractures: Sudden injuries or fractures in the hip region can lead to unexpected hip pain that may radiate to the back. This is more common in older individuals who are more prone to falls and have weaker bones. 
+
+- Soft Tissue Problems: Issues with the muscles, ligaments, tendons, and other soft tissues surrounding the hip joint can cause pain on the outside of the hip, upper thigh, or outer buttock. This pain may refer to the back or spine, creating a sensation of back pain. 
+
+- Bursitis: Inflammation of the bursae (fluid-filled sacs that act as cushions between bones and tissues) in the hip can lead to hip and back pain, especially during movement or activity. 
+
+- Lower Back Conditions: While not directly a hip condition, issues in the lower back, such as disc problems, facet joint issues, sacroiliac joint dysfunction, or nerve compression, can radiate pain to the hip and surrounding areas. 
+
+It is important to consult with a healthcare professional for an accurate diagnosis and treatment plan if you are experiencing hip or back pain, as the causes can vary and may require different approaches for management.",False,0.8,0.7368421053
+18,19,msmarco,multi,How does discrimination affect work,"Discrimination in the workplace can have a range of negative effects on both employees and the business as a whole. 
+
+For employees, discrimination can lead to a loss of job satisfaction, motivation, and interest in their work. They may become demoralized, develop a bad attitude, and reconsider the value of their job. This can result in increased employee turnover as people choose to leave discriminatory work environments. 
+
+Discrimination also affects the entire workforce, creating a poor work culture with a demoralized, mistrustful, and discontented atmosphere. It can lead to a loss of focus and productivity, as time is wasted dealing with the fallout of discriminatory incidents and attempting to address them in meetings. 
+
+Additionally, discrimination harms the business's reputation in the community and may deter potential clients and recruits. It can also result in costly legal settlements, as seen in cases involving large corporations. 
+
+Overall, discrimination has far-reaching consequences that impact all aspects of a business and the people involved.",False,1.0,1.0
+19,20,msmarco,multi,what was mouthwash originally used for,Mouthwash was originally used as a surgical antiseptic and to disinfect wounds.,False,1.0,0.5
+20,21,msmarco,multi,what happens when a homeless felon person dies,"When a homeless person dies, there are a few possible outcomes. If the person has no known family or next of kin, their body is usually taken to a morgue, where a report is made to the registrar of the Bureau of Vital Statistics. The county coroner may also be involved if the person did not die of natural causes or if there is suspicion of foul play. 
+
+In some cases, homeless individuals who die in hospitals may be buried in mass graves, especially if they have no family to claim their bodies. Their bodies may be cremated, and the remains scattered at sea. 
+
+If the homeless person has family or next of kin, that family will decide what to do with the body, whether it be burial, cremation, or another option. 
+
+It is important to note that regardless of a person's social or economic status, funeral home directors and those involved in the process aim to treat the deceased with dignity and respect.",True,0.0,0.7692307692
+21,22,msmarco,multi,what is a normal creatinine level,"A normal level of creatinine in the blood for adult males falls between 0.6 to 1.2 milligrams (mg) per deciliter (dl), while for adult females, it is between 0.5 to 1.1 mg/dL. These values can vary slightly between different labs. It's important to note that normal creatinine levels depend on an individual's muscle mass, with men typically having higher levels than women due to greater muscle mass.",True,1.0,1.0
+22,23,msmarco,multi,what is congressional oversight,"Congressional oversight is the review, monitoring, and supervision of the Executive Branch and its federal agencies, programs, activities, and policy implementation by the United States Congress. It is an integral part of the system of checks and balances in the American government, derived from the Constitution, public laws, and House and Senate rules. Congress primarily exercises this oversight function through its committee system, holding hearings and investigations to ensure executive officials are accountable for their actions and the implementation of delegated authority.",True,1.0,1.0
+23,24,msmarco,multi,what are amines,"Amines are organic compounds that contain one or more atoms of nitrogen and are often derivatives or relatives of ammonia. In amines, one or more of the hydrogen atoms in ammonia are replaced by an organic functional group, such as an alkyl or aryl group. This replacement results in different types of amines, including primary, secondary, and tertiary amines, depending on the number of hydrogen atoms substituted. Amines generally have single bonds between carbon and nitrogen atoms and are typically weak bases.",True,1.0,1.0
+24,25,msmarco,multi,can itunes be set up on kindle,"Yes, you can set up iTunes on your Kindle Fire and play your purchased iTunes music. If your iTunes purchases are backed up to iCloud, you can use the Amazon Cloud Player to access your music. You can also use a DRM removal tool to remove DRM protection from iTunes music and videos and then transfer the non-DRM files to your Kindle Fire for playback. Additionally, you can buy music from the Amazon MP3 store and use the Amazon MP3 Downloader to automatically send the music to iTunes on your computer.",True,0.0,0.8571428571
+25,26,msmarco,multi,driving time barcelona to madrid,The driving time from Barcelona to Madrid is approximately 6 hours.,True,1.0,1.0
+26,27,msmarco,multi,how much chicken cutlets per person,"For boneless chicken cutlets, it is recommended to plan for 4-5 ounces of cooked chicken per person, which translates to about 5-6 ounces of raw chicken per person. Some sources suggest that 8 ounces of raw boneless chicken per person is a more generous portion, especially if chicken is the main course. 
+
+If you are serving bone-in chicken cutlets, it is recommended to buy about 8 ounces of raw chicken per person, which will yield about 4-5 ounces of meat per serving. 
+
+These recommendations are based on the assumption that chicken is the main course and that people will be eating other foods alongside the chicken. Adjustments may be necessary depending on the overall menu and the appetite of your guests.",False,1.0,0.7000000000000001
+27,28,msmarco,multi,what is arabic gum,"Arabic gum, also known as gum Arabic, gum acacia, E414, chaar gund, char goond, or meska, is a natural gum made from the hardened sap of the Acacia tree, specifically the species Senegalia (Acacia) senegal and Vachellia (Acacia) seyal. It is a complex mixture of glycoproteins and polysaccharides and is used in a variety of applications, primarily as a stabilizer, emulsifier, and thickening agent in the food and drink industries. It is commonly used in soft drinks, confectionery, chewing gum, and traditional desserts. Outside of the food industry, Arabic gum is used in the manufacture of inks, adhesives, and pharmaceuticals.",True,1.0,1.0
+28,29,msmarco,multi,increasing doses of neurontin,"The dosage of Neurontin (gabapentin) can be increased depending on the condition being treated and the patient's response. For adults with epilepsy, the recommended initial dosage is 300 mg taken once to three times a day, with a usual maintenance dose of 900 mg per day given in three divided doses. If needed, the maintenance dose can be increased up to a maximum daily dose of 1,800 mg. 
+
+For adults with postherpetic neuralgia, Neurontin therapy is typically initiated with a lower starting dose of 300 mg on Day 1, increased to 600 mg/day (300 mg two times a day) on Day 2, and then to the recommended maintenance dose of 900 mg/day (300 mg three times a day) on Day 3. 
+
+It is important to note that the maximum time between doses should not exceed 12 hours for both conditions, and Neurontin should be administered three times a day. Additionally, the bioavailability of gabapentin decreases as the dose is increased, so this should be considered when adjusting the dosage. 
+
+Please consult a medical professional for personalized advice and always follow their recommendations for dosage adjustments.",True,1.0,0.7857142857
+29,30,msmarco,multi,how much does it cost to put in a shower in a bathroom,"The cost of installing a new shower in a bathroom can vary depending on several factors, including the type of shower, the materials used, the complexity of the installation, and your location. 
+
+For a very basic shower enclosure, you could pay as little as $400 to $600. However, if you want a more elaborate setup, such as a combination bath/shower unit or a top-of-the-line surround, the price could range from $1,500 to $3,000 or more. 
+
+If you're considering a tile shower, the cost will likely start at around $1,500 and can increase to $5,000 or higher, depending on the design and any additional features you choose. 
+
+The cost of tiling a shower typically ranges from $744 to $1,006, but again, this can vary depending on the type of tile and the size of the shower. 
+
+According to one source, the national average for a new shower installation project by a professional contractor is $2,689. 
+
+Keep in mind that these are general estimates, and the actual cost for your specific project may differ. It's always a good idea to get quotes from multiple contractors and to discuss the specific details of your project to get a more accurate estimate.",True,1.0,0.8571428571
+30,31,msmarco,multi,why the reactions of the calvin cycle are also referred to as light independent reactions,"The reactions of the Calvin cycle are referred to as light-independent reactions because they do not require light directly for any of their steps. Instead, the Calvin cycle uses products of the light-dependent reactions, such as ATP and NADPH, to fix carbon dioxide into carbohydrates like glucose. This process occurs in the stroma of plant chloroplasts, where sugars are synthesized from carbon dioxide.",True,1.0,1.0
+31,32,msmarco,multi,vanna white income,Vanna White's annual salary as the hostess of *Wheel of Fortune* is estimated to be around $4 million per year. Her net worth is estimated to be between $15 million and $30 million.,False,1.0,1.0
+32,33,msmarco,multi,what is calcium chloride used for medically,"Calcium chloride is used in medicine as a source of calcium, often to replenish calcium levels in the blood, and as a diuretic. It is prescribed for the treatment of hypocalcemic tetany and as an antidote for lead or magnesium poisoning, or magnesium sulfate overdose. Calcium chloride is also used in cardiac resuscitation and as a treatment adjunct in cardiac arrest.",False,0.8,0.8888888889000001
+33,34,msmarco,multi,deductible investment management fees for iras,"Investment management fees for IRAs (Individual Retirement Accounts) are deductible and can be paid directly from the IRA itself or with outside funds. Paying these fees directly from an IRA reduces the reportable distribution, and thus taxable income, from the account. Using outside funds to pay the fees may provide a tax deduction, but the advantage is typically minimal compared to using pretax dollars from the IRA. It is important to note that only the management fee itself is deductible; any other expenses associated with the account may not be deductible in the same way.",False,1.0,0.7777777778
+34,35,msmarco,multi,what is the riparian brush rabbit common and species name,"The common name of the species is the riparian brush rabbit, and its species name is Sylvilagus bachmani riparius.",True,1.0,1.0
+35,36,msmarco,multi,what is the delivery time for priority mail express,"The delivery time for Priority Mail Express is guaranteed to be overnight or within 1 to 2 days, including Sundays and holidays. The specific delivery time depends on the destination and the distance from the original package location. Hold for Pickup items are available for claim by the addressee at the destination facility by 10:30 a.m. or 3 p.m. of the next day. An optional fee is charged for a 10:30 a.m. delivery request.",True,1.0,0.7777777778
+36,37,msmarco,multi,which molecule is butane,"Butane, also known as n-butane, is the unbranched alkane with the chemical formula C4H10. It has four carbon atoms and ten hydrogen atoms, forming a straight-line structure. Butane is sometimes used as a collective term for n-butane and its isomer, isobutane (or methylpropane).",False,1.0,1.0
+37,38,msmarco,multi,what are the beryllium halides,"Beryllium halides include compounds such as beryllium fluoride (BeF2) and beryllium chloride (BeCl2). These compounds are largely covalent in nature, with beryllium fluoride being considered predominantly ionic.",False,0.8,1.0
+38,39,msmarco,multi,what are the different parts of a volcano called,"The different parts of a volcano are called: 
+- Magma Chamber: A large pool of molten rock (magma) beneath the Earth's crust. 
+- Vent or Throat: An opening in the Earth's surface through which lava, ash, and gases escape. 
+- Flank: The side of a volcano. 
+- Parasitic Cone: A small, cone-shaped volcano formed by volcanic debris. 
+- Sill: A flat piece of rock formed when magma hardens in a crack in the volcano. 
+- Cone or Crater: The accumulation of lava, cinders, ash, and other materials that build up around the vent, giving the volcano its characteristic shape. 
+- Lava: Magma that has reached the Earth's surface and cooled down. 
+
+These are the main parts of a volcano, each serving a specific function and contributing to the overall structure and behavior of volcanic eruptions.",False,0.8,0.4545454545
+39,40,msmarco,multi,what is eris,"Eris is a dwarf planet located in the outer reaches of our solar system. It was discovered in 2005 by a team of astronomers led by Mike Brown and is considered the most massive and second-largest dwarf planet known in the solar system. Eris is a trans-Neptunian object (TNO) and a member of a high-eccentricity population known as the scattered disk. It is about 2,326 kilometers in diameter, making it slightly larger than Pluto, and has a mass that is approximately 0.27% of the Earth's mass. The discovery of Eris played a significant role in the reclassification of Pluto as a dwarf planet.",True,0.8,0.9166666667000001
+40,41,msmarco,multi,what is a transgenic organism and give an example,"A transgenic organism is a type of genetically modified organism (GMO) that has had its genetic material altered by genetic engineering techniques. This often involves inserting DNA from another species into the organism's embryo, creating an organism with a unique combination of genetic material from multiple sources. 
+
+An example of a transgenic organism is a plant that has been engineered to have increased resistance to frost. By introducing a gene from an organism that naturally tolerates cold temperatures, scientists can create a transgenic plant that can survive in colder climates. This could potentially expand the geographical range of certain crops and improve agricultural productivity.",False,1.0,0.4444444444
+41,42,msmarco,multi,how can you measure effectiveness,"There are several ways to measure effectiveness depending on the context. 
+
+In a business or marketing context, effectiveness can be measured through key performance indicators (KPIs) such as customer lifetime value (CLV), return on investment (ROI), number and value of leads generated, revenue driven by marketing, coverage (number of customers served), backlog, and customer satisfaction. These metrics provide insights into the performance and impact of marketing activities. 
+
+For management effectiveness, indicators may include the ability to network and manage client relationships, meet communication, training, and safety needs of employees, revenue generation, and the market value of a publicly traded company's stock over time. 
+
+In a more general sense, effectiveness can be measured by evaluating the achievement of objectives and expectations. This can apply to various domains, including project development, strategy implementation, or service provision. 
+
+It is important to define the specific context and objectives when determining the most relevant and effective metrics to use.",False,1.0,0.8888888889000001
+42,43,msmarco,multi,george westinghouse what did he invent,"George Westinghouse invented the air brake, also known as the ""Railway Air Brake,"" which revolutionized the railroad industry by making braking safer and allowing trains to travel faster. He also patented several other devices related to railroads and made contributions to the field of electricity, though he is primarily known for his work with railway equipment. Westinghouse started the Westinghouse Electric & Manufacturing Company to improve AC power generators.",True,1.0,1.0
+43,44,msmarco,multi,loan origination fee deductible,"Loan origination fees are tax-deductible if they are clearly stated as points on top of the GFE and do not pay for other items. Additionally, the cash you contribute to the loan must be greater than the amount paid in origination points, and the loan must be for a primary residence. 
+
+It's important to note that there are two types of loan origination fees: deductible and non-deductible. Deductible fees, also known as maximum loan charges or discount points, represent prepaid interest and can be deducted over the life of the loan if you cannot deduct them immediately. Non-deductible fees include closing costs such as appraisal fees, title fees, legal expenses, and prepaid property taxes.
+
+When taking out a loan, it is essential to review the settlement statement carefully to identify the prepaid interest and sort out the deductible and non-deductible fees.",True,1.0,1.0
+44,45,msmarco,multi,why beta carotene supplements is good for you,"Beta-carotene supplements are often touted as a way to boost overall health and prevent disease. Here are some reasons why beta-carotene supplements are considered beneficial: 
+
+- Antioxidant Properties: Beta-carotene is a powerful antioxidant that helps protect the body from damage caused by free radicals. Free radicals are unstable molecules that can contribute to chronic illnesses over time. By inhibiting the oxidation of other molecules, beta-carotene acts as a guardian of cellular health. 
+
+- Vitamin A Conversion: Beta-carotene is a precursor to vitamin A (retinol). This means that when you consume beta-carotene, your body converts it into vitamin A as needed. Vitamin A is essential for various functions in the body, including maintaining healthy skin, promoting good vision and eye health, boosting the immune system, and supporting cell division and reproduction. 
+
+- Disease Prevention: Some studies suggest that beta-carotene may help lower the risk of certain conditions, including cancer and heart disease. This is likely due to its antioxidant and anti-inflammatory properties, which can help reduce cellular damage and maintain overall health. 
+
+- Improved Nutrient Intake: For individuals who may not get enough beta-carotene or vitamin A from their regular diet, supplements can help bridge the gap. This is especially beneficial for those who do not regularly consume the recommended amount of fruits and vegetables that are rich in beta-carotene. 
+
+- Anti-Aging Benefits: Beta-carotene is often classified as an anti-aging micronutrient due to its ability to reduce illness, improve overall health, and potentially increase longevity. Its role in maintaining healthy skin, eyes, and immune function contributes to overall well-being as we age. 
+
+While beta-carotene supplements can provide these potential benefits, it is always important to consult with a healthcare professional before adding any supplement to your routine. Additionally, consuming beta-carotene through a balanced diet that includes colorful fruits and vegetables is generally considered the safest and most beneficial approach.",True,0.4,0.7037037037
+45,46,msmarco,multi,what is behcet's disease,"Behçet's disease, also known as Behçet's syndrome, is a rare, chronic, autoinflammatory disorder of unknown origin. It is characterized by vasculitis, which is inflammation of the blood vessels, resulting in damage to both arteries and veins anywhere in the body. This inflammation causes various symptoms in different parts of the body, including sores in the mouth and on the genitals, as well as more serious eye issues such as inflammation, swelling, redness, heat, and pain. Some people may inherit a predisposition to the disease or have a problem with their immune system that makes them more likely to develop it.",True,1.0,1.0
+46,47,msmarco,multi,the meaning of name halen,"The name Halen has multiple meanings depending on the origin. In Old English, it means ""hollow,"" and in Greek, it means ""shining light"" or ""sun ray.""",True,0.0,0.0
+47,48,msmarco,multi,how much to raise a child,"The cost of raising a child varies depending on geographic location and the family's income. According to the US Department of Agriculture's annual Cost of Raising a Child report, a middle-income family in the US can expect to spend approximately $245,340 (or $304,480, adjusted for projected inflation) to raise a child born in 2013 up until the age of 18. This equates to roughly $12,800 - $14,970 per child per year for a two-parent family with a median annual income between $61,530 and $106,540.
+
+It's important to note that this cost can vary widely. For example, the report found that the highest costs were in the urban Northeast, with an estimated cost of $282,480 per child, while the lowest costs were in the urban South at $230,610. Child care costs have also soared and can be a significant burden for families.",False,1.0,1.0
+48,49,msmarco,multi,what is speed training definition,"Speed training is a type of physical training that involves improving an athlete's maximum speed, acceleration, and speed endurance. It is an important aspect of fitness for success in many sports, especially for athletes in events or activities that require quick movements and bursts of speed, such as sprinting, swimming, cycling, and speed skating. 
+
+Speed training can include various methods such as interval training, which involves a series of low- to high-intensity exercises with rest periods in between. A specific speed training method is described in the context, suggesting the use of a hill with a maximum 15° decline to build up to full speed and then maintain it for a certain distance. 
+
+The definition of speed itself is the distance covered divided by the time it takes to cover that distance, and speed training aims to improve an athlete's ability to maximize this ratio.",False,0.4,1.0
+49,50,msmarco,multi,diode is used for,"A diode is a fundamental component in electronics, primarily used to control the direction of current flow in a circuit. It allows current to pass through it in one direction (from the anode to the cathode) with low resistance, while blocking current flow in the opposite direction with very high resistance. This unidirectional behavior makes diodes ideal for several applications, including:
+1. Rectification: Diodes can convert alternating current (AC) to direct current (DC) through a process called rectification. A diode bridge is a common configuration used for this purpose in power supplies.
+2. Voltage Regulation: Zener diodes are specifically designed to maintain a constant voltage across a circuit, even when the input voltage varies. This property makes them useful for voltage regulation and reference in power supplies.
+3. Switching: Switching diodes are used to turn circuits on or off. Band switching diodes are specialized for switching high-frequency signals.
+4. Signal Processing: Diodes can be used for various signal processing functions, including limiting, modulation, mixing, demodulation, and oscillation.
+5. Light Emission: Light-emitting diodes (LEDs) produce light when a current passes through them and are used in a wide range of applications, from indicators to general lighting.
+6. Logic Gates: Diodes can be used to create logic gates, which are fundamental building blocks of digital circuits and computer systems.
+7. Clamps and Voltage Limiters: Diodes can be employed as clamps or voltage limiters to protect circuits from voltage spikes or to limit voltage levels.
+
+In summary, diodes are versatile components that enable the control and manipulation of current flow, making them essential in a wide range of electronic applications.",True,1.0,0.84
+50,51,msmarco,multi,how long do Shelties live?,"Shelties, or Shetland Sheepdogs, typically have a lifespan of between 11 and 15 years with proper care. On average, they live between 12 and 14 years.",True,1.0,1.0
+51,52,msmarco,multi,bad food for ldl cholesterol,"Foods that are bad for LDL cholesterol and should be avoided include:
+- Foods rich in trans fats: shortening, margarine, cake and biscuit mixes, ramen noodles, deep-fried fast food, frozen foods, doughnuts, baked goods, candy, crackers, chips, breakfast cereal, energy bars, dips, gravy mixes, toppings, and eggs (especially the yolk)
+- Foods high in saturated fats: these can include fatty meats, full-fat dairy products, and processed foods.
+
+It is important to note that while eggs are generally healthy, if you have high cholesterol, it is best to avoid the yolk and only consume the egg whites.",True,1.0,0.5
+52,53,msmarco,multi,name meanings aphrodite,"Aphrodite is a Greek name that means ""foam,"" which refers to the sea foam or semen that the goddess of love, beauty, and procreation is said to have emerged from in her origin story.",True,1.0,1.0
+53,54,msmarco,multi,is cyprus safe,"Cyprus is generally considered a safe place to visit, with a low rate of violent crime. However, it is always important to remain vigilant and cautious, especially when it comes to accepting drinks from strangers, as muggings have been reported in certain areas. There have been reports of ISIS mobilizing in the region, but the Cypriot government and international authorities are actively working to address security concerns. It's always a good idea to stay informed about the latest travel advisories and safety updates before visiting any foreign country.",True,0.8,0.6000000000000001
+54,55,msmarco,multi,food groups definition,"A food group is a collection of foods that share similar nutritional properties or biological classifications. Nutrition guides typically divide foods into food groups and recommend a certain daily intake from each group to ensure a healthy diet. 
+
+The number of food groups varies depending on the specific nutrition guide being referenced. For example, the US Department of Agriculture (USDA) has described food groups ranging from 4 to 11, while some sources simplify this into three basic groups: grow foods (body-building foods), go foods (energy-giving foods), and glow foods (body-regulating foods). 
+
+Here is a list of some common food groups: 
+- Dairy: milk, yogurt, cheese, and milk-based desserts like ice cream and pudding.
+- Fruits: fresh, dried, frozen, canned fruits, and 100% fruit juice.
+- Vegetables: a diverse group of foods that includes many different shapes, colors, and sizes.
+- Carbohydrates: bread, cereals, rice, oats, and pasta.
+- Citrus Fruits: grapefruits, lemons, melon, oranges, papaya, strawberries, and tomatoes.
+- Meat/Nuts/Legumes: meat, seafood, nuts, and legumes.
+- Breads/Cereals: rice, corn, bread, oatmeal, macaroni, and noodles.
+- Fats: oils, sweets, chocolate, and other foods that don't fall into the basic food groups. 
+
+It is important to note that the specific composition of food groups can vary slightly between different nutritional systems and guidelines.",True,0.8,1.0
+55,56,msmarco,multi,how do i know if my child has diabetes signs,"Here are some signs that may indicate your child has type 1 diabetes: 
+
+- Increased thirst and frequent urination: This is a common early sign of diabetes as the body tries to get rid of the excess glucose in the blood by producing more urine, leading to increased thirst. 
+- Extreme hunger: The body is unable to use glucose for energy effectively, so it tries to compensate by making you feel hungry, encouraging you to eat more glucose-providing food. 
+- Weight loss: Despite extreme hunger and potentially eating more, weight loss can occur due to the body's inability to use glucose effectively for energy. 
+- Blurred vision: High blood glucose levels can affect the shape of the lens in the eye, causing changes in vision. 
+- Fatigue: Again, this is due to the body's inability to use glucose effectively for energy, leading to a lack of energy and potential tiredness or fatigue. 
+
+If you notice any of these signs, it is important to make an appointment with your doctor, who can check your child's blood glucose levels and make a diagnosis. Early detection of diabetes is crucial to preventing potentially fatal complications.",True,1.0,0.4285714286
+56,57,msmarco,multi,marginal cost of equity,"The marginal cost of equity is calculated by adding the expected dividend growth rate to the ratio of the following year's dividend payments to the stock price, taking into account stock issuance costs.",True,1.0,1.0
+57,58,msmarco,multi,what is medium trot,"A medium trot is a variation of the horse gait, or pace, of a trot. It is characterized by some lengthening of the stride while maintaining a rounded frame and slightly lower head position from the horse when compared to a working trot. It is faster than a collected trot but slower than an extended trot.",True,1.0,0.7142857143
+58,59,msmarco,multi,what does a rumen do,"The rumen is the largest compartment of a cow's four-chambered stomach, serving as a large fermentation vat. It is responsible for breaking down ingested feed, especially cellulose, with the help of billions of symbiotic microorganisms, including bacteria, protozoa, and other microbes. These microbes aid in the digestion of fiber, cellulose, and hemicellulose, converting them into usable energy for the cow, such as volatile fatty acids. The rumen can hold a large capacity of up to 49-50 gallons in adult dairy cows and even more in larger cattle breeds.",True,1.0,1.0
+59,60,msmarco,multi,how are irs penalties calculated,"IRS penalties for late tax payments or filings are calculated based on the amount of tax owed, the lateness, and the total unpaid amount. 
+
+If you fail to pay your taxes on time, the IRS will charge a penalty of 0.5% of the overdue amount each month, up to a maximum of 25%. 
+
+For late filings, the penalty is 5% of the additional taxes owed for each month your return is late, also up to a maximum of 25%. If your return is over 60 days late, there is a minimum penalty of either $135 or 100% of your unpaid tax, whichever is smaller. 
+
+Interest is also charged on the unpaid amount, currently set at 3% per year and calculated daily. 
+
+The IRS treats each case individually and will send a separate bill for penalties and interest after receiving or accepting your return.",True,1.0,0.9375
+60,61,msmarco,multi,what does manager mean,"A manager is a person responsible for planning, organizing, and directing the work of a group of individuals, typically in a business, restaurant, or sports team setting. They are in charge of a specific group of tasks or a subset of a company and are responsible for accomplishing the goals set for that area. Managers often have a staff that reports to them and may take corrective action when necessary. The specific responsibilities of a manager can vary depending on the organization and its needs.",True,1.0,0.7692307692
+61,62,msmarco,multi,how long will deli meat keep in the fridge,"Deli meat will keep in the fridge for about 3 to 5 days if it has been handled and stored properly. To maximize the shelf life of deli meat, it should be stored in an airtight container in the refrigerator. If you need to keep it for a longer period, you can transfer it to the freezer.",True,1.0,1.0
+62,63,msmarco,multi,what was the purpose of the stanford prison experiment,The purpose of the Stanford Prison Experiment was to investigate the psychological effects of becoming a prisoner or prison guard and to understand the dynamics between the two roles. The experiment aimed to determine whether the brutality reported among guards in American prisons was due to the guards' inherent sadistic personalities or if it was influenced more by the prison environment.,True,1.0,1.0
+63,64,msmarco,multi,how to minimize moving costs,"There are several strategies you can use to minimize moving costs. Here are some tips:
+
+- Time your move: Schedule your move during the middle of the month, as movers are typically busiest at the beginning and end of the month when leases turn over.
+- Pack your own boxes: By packing your belongings yourself, you can reduce the amount of work required by the moving company and lower your overall moving costs.
+- Get rid of old belongings: Downsizing and getting rid of items you no longer use can reduce the weight of your load and lower moving expenses. You can even sell valuable items to make some extra money for your moving budget.
+- Save on boxes: Instead of buying new boxes, look for used or recycled boxes to pack your items. You can often find free boxes online through sites like Craigslist or local classifieds.
+- Compare quotes: Get multiple quotes from different moving companies to find the best price. This will help you avoid overpaying and make an informed decision about which company to choose.
+- Collect packing materials: Start collecting packing materials like boxes, tape, and bubble wrap in advance. This will ensure you have enough when it's time to pack and can avoid last-minute purchases.
+- Hire an efficient moving company: Look for a moving company with a reputation for being quick and efficient. A efficient firm will take steps to make the moving process smoother and more cost-effective.
+- Claim freebies: Keep an eye out for free moving supplies from work, friends, or online groups. Every little bit helps when it comes to saving on moving costs!
+
+By following these tips and planning ahead, you can significantly minimize your moving costs and make your relocation more affordable.",False,1.0,0.9583333333
+64,65,msmarco,multi,what age does cvs hire,"The minimum age to work at CVS is 16 years old for positions such as cashier, sales associate, and beauty care associate. However, some positions have different age requirements, such as 18 years old to work in the pharmacy or photo department, and 21 years old to work in the liquor store.",True,0.4,0.8
+65,66,msmarco,multi,when i sprint why do i get a burning and sting sensation in my stomach,"There could be several reasons why you experience a burning and stinging sensation in your stomach when you sprint. Here are some possible explanations based on the provided context:
+
+- **Gastritis**: Gastritis is a condition where the lining of the stomach becomes irritated, damaged, or inflamed. Sprinting can increase gastric juices, which, when coming into contact with the inflamed lining, can cause a burning sensation.
+- **GERD (Gastroesophageal Reflux Disease)**: GERD is a digestive disorder where stomach acids back up into the esophagus. Sprinting can increase abdominal pressure, causing acid reflux and a burning feeling.
+- **Food allergies or intolerances**: Sprinting can lead to a faster ingestion of food and a quicker emptying of the stomach, potentially triggering an allergic or intolerant reaction and resulting in a burning sensation.
+- **Emotional stress**: Stress can affect digestion and stomach sensitivity. The adrenaline and increased stomach acid production during sprinting, coupled with emotional stress, might contribute to the burning and stinging sensation.
+- **Stomach ulcer**: Ulcers are sores in the lining of the stomach, which can be aggravated by stomach acids. The physical exertion of sprinting could stimulate acid secretion and intensify the pain.
+
+It is important to consult a medical professional to determine the exact cause of your burning and stinging sensation, as they can provide a personalized assessment based on your medical history and symptoms.",True,0.8,0.3888888889
+66,67,msmarco,multi,what is printmaking art,"Printmaking is an art form in which ink or other materials are transferred from a matrix (such as a block, plate, or screen) to a material like paper, fabric, wood, or stone. It is considered an original art form because it is done by hand, and each printmaking process lends itself to unique qualities. Printmaking allows artists to create ""multiple originals"" of an artwork, meaning that each print is an original rather than a simple reproduction. There are various techniques used in printmaking, and artists choose their medium based on the effect they want to achieve.",True,1.0,1.0
+67,68,msmarco,multi,what does the name kiana mean,"The name Kiana has various meanings depending on its origin and cultural context. Here are some of the commonly accepted meanings:
+
+- Hawaiian Origin: In Hawaii, Kiana is considered a form of the name Diana, derived from an old Indo-European root meaning ""heavenly"" or ""divine."" It is associated with the Roman goddess of the moon, hunting, forests, and childbirth, as well as the Greek goddess Artemis. Alternatively, it can mean ""moon goddess,"" ""beautiful and angelic flower,"" or ""calm water.""
+- Irish and American Origin: In Irish and American cultures, Kiana is often interpreted as meaning ""ancient.""
+- Korean and Spanish Combination: For someone with a Korean and Spanish background, like your friend Kiana, the name can be seen as a combination of the Korean name ""Ki,"" meaning ""arisen,"" and the Spanish name ""Ana,"" meaning ""princess."" So together, it can mean ""arisen princess.""
+- Grace: In some sources, the name Kiana is associated with the meaning ""grace.""
+
+It's worth noting that name meanings can vary across different sources and interpretations, and some of these meanings may be more widely accepted than others.",False,1.0,0.8888888889000001
+68,69,msmarco,multi,why is the black sea called black,"There are several theories as to why the Black Sea is called as such. One theory suggests that the name originates from the Medieval Turkish word 'Kara', which means 'North'. Another theory suggests that the sea appears black due to the lack of oxygen in the water, which prevents the development of microorganisms. Additionally, the intense fogs that develop over the Black Sea can also absorb light, making the water appear darker. The Black Sea has also been historically known as a 'Sea of Death' due to the dangerous storms that sailors would often encounter, further contributing to its ominous name.",True,1.0,1.0
+69,70,msmarco,multi,how to make oven roasted potatoes,"Here is a general guide on how to make oven-roasted potatoes:
+
+1. Preheat your oven to a temperature between 350-475°F, depending on your recipe and desired cooking time.
+2. Cut your potatoes into halves, quarters, or uniform sizes.
+3. In a large bowl, toss the potatoes with oil, salt, pepper, and any desired herbs or spices (such as garlic, rosemary, thyme, or red pepper flakes).
+4. Spread the potatoes in a single layer on a roasting pan or baking sheet.
+5. Roast in the oven for 20-45 minutes, depending on the size of your potatoes and the desired level of doneness. Stir or flip the potatoes occasionally to ensure even browning on all sides.
+6. Remove from the oven, season to taste, and serve hot.
+
+Feel free to experiment with different herb and spice combinations to find your favorite roasted potato flavor!",True,1.0,0.9166666667000001
+70,71,msmarco,multi,define formal organization,"A formal organization is a deliberate structure with defined rules, policies, and procedures, aimed at achieving specific goals. It is characterized by a division of labor, clear functions, and a hierarchy of power and authority. Formal organizations are governed by stated norms and often consist of interrelated groups or subsystems. An organizational chart, or structure chart, is a visual representation of a formal organization, showing the hierarchy and interrelationships between different positions and departments. Examples of formal organizations include churches, schools, hospitals, and companies.",True,1.0,0.8666666667
+71,72,msmarco,multi,do i need a prescription for oxygen,"Yes, you do need a prescription for oxygen. In the United States, supplemental oxygen is classified as a prescription medication. A valid prescription for oxygen should include specifics such as the duration of oxygen use, flow rate, delivery device (nasal cannula or oxygen mask), and the type of oxygen system (concentrator, compressed gas tank, or liquid oxygen). It's important to consult with a knowledgeable doctor to obtain a prescription that meets your individual needs.",True,1.0,1.0
+72,73,msmarco,multi,what genre did william wordsworth wrote in,"William Wordsworth was a Romantic poet and is often credited with being the pioneer of the Romantic movement in English literature. He is known for his nature-inspired poetry and use of colloquial language, departing from the more formal and stylized poetry of the time. His work often explored the connection between the natural world and human emotions, a key tenet of Romanticism.",True,1.0,1.0
+73,74,msmarco,multi,average salary for a probation officer,"The average salary for a probation officer in the United States is around $50,000 per year, but this can vary depending on factors such as experience, location, and employer. For example, probation officers with less than a year of experience may earn between $24,666 and $48,479, while those with 10-19 years of experience can earn up to $79,983. Probation officers in certain states, such as California, Texas, and Florida, tend to have higher wages, and those working in urban areas may also earn higher salaries. Additionally, probation officers employed by local government agencies tend to earn slightly more than those working for state government.",False,1.0,1.0
+74,75,msmarco,multi,why are muscles important,"Muscles are important for several reasons. Firstly, they enable us to move by converting energy into motion, allowing us to perform various physical activities such as running, dancing, and building. 
+
+Secondly, muscles provide stability and protection to our bodies, especially the core muscles surrounding the spine and pelvis, which help prevent injuries to the back and civilian joint. 
+
+Additionally, muscles are crucial for internal functions, such as controlling the pumping of the heart. 
+
+Moreover, muscles require proper recovery and stretching to maintain their health and prevent injury. Stretching helps lengthen and open up the muscles, improving flexibility and range of motion in the joints.",True,1.0,1.0
+75,76,msmarco,multi,what company makes dubble bubble,Dubble Bubble was created by Fleer Candy Company accountant Walter Diemer in 1928 and joined the Tootsie Roll Industries family in 2003.,True,1.0,1.0
+76,77,msmarco,multi,asparagus health benefits and side effects,"Asparagus has a wide range of health benefits and is considered a nutrient-rich food. Here are some key benefits: 
+
+- Nutrient Dense: Asparagus is loaded with vitamins and minerals, including vitamins A, C, E, K, and folate, as well as chromium and fiber. 
+- Heart-Healthy: It contains no fat, cholesterol, or sodium, making it a good choice for a heart-healthy diet. 
+- Fertility and PMS Relief: Asparagus is believed to provide relief from pre-menstrual syndrome and may have positive effects on fertility. 
+- Preventing Kidney and Bladder Stones: Asparagus may help prevent stones in the kidney and bladder. 
+- Fighting Anemia: Due to its high folic acid content, asparagus can help prevent anemia caused by folic acid deficiency. 
+- Treating Skin Issues: Some people use asparagus topically to treat acne, dry sores, and clean the skin. 
+- Reducing Urinary Tract Infections: Asparagus is said to reduce the risk of urinary tract infections. 
+- Lowering Cholesterol: It may help lower blood cholesterol levels. 
+
+While asparagus is generally safe and packed with benefits, there are a few side effects to be aware of: 
+
+- Allergic Reactions: Some people may be allergic to asparagus, especially if they are allergic to other members of the lily family like onions, garlic, or chives. Allergic reactions can include a runny nose, hives, trouble breathing, and swelling around the mouth and lips. 
+- Gas and Odor: Eating large amounts of asparagus may cause gas and a noticeable smell in urine due to sulfuric compounds. However, this is not harmful and few people can actually detect the smell. 
+- Unsafe During Pregnancy in Medicinal Amounts: While safe in food amounts, asparagus in large medicinal amounts is considered unsafe during pregnancy as it may affect hormone balances. 
+
+Remember, asparagus is generally a very healthy addition to your diet, but as with anything, moderation is key to avoiding any negative side effects.",True,0.8,1.0
+77,78,msmarco,multi,ITIL wiki definition,"ITIL, short for IT Infrastructure Library, is a set of widely accepted practices for IT Service Management (ITSM). It provides a collection of concepts, processes, and procedures that can be applied by organizations to align their IT services with business needs, deliver value, and maintain competency. ITIL offers a cohesive set of best practices and is supported by qualifications, accredited training, and implementation tools. The ITIL glossary provides definitions and acronyms related to ITIL and ITSM, helping users understand the specialized terms used in the framework.",True,1.0,1.0
+78,79,msmarco,multi,what is hippocampus,"The hippocampus is a small, curved, elongated region of the brain that is part of the limbic system and is involved in forming, storing, and processing memories. It is located in the medial temporal lobe of the brain, underneath the cortical surface, and exists in pairs, with one hippocampus in each brain hemisphere. The hippocampus is particularly important for long-term memory and spatial navigation.",True,1.0,1.0
+79,80,msmarco,multi,what are the rings around our moon called,"The ring-like optical phenomenon that occasionally appears around the moon is called a moon halo, lunar halo, or moon ring. This occurs when tiny ice crystals in the atmosphere refract and reflect moonlight (which is reflected sunlight) creating a halo with a radius of about 22 degrees around the moon.",True,1.0,1.0
+80,81,msmarco,multi,uzma name meaning,"The name Uzma has multiple origins and meanings. In Muslim and African culture, Uzma means ""greatest."" In Spanish, the name means ""a capable woman."" The name is typically given to girls and is not commonly used. Variations of the name include Usma, Usmah, and Uzmah.",True,1.0,1.0
+81,82,msmarco,multi,what do gmos cause,"GMOs, or genetically modified organisms, can cause harm to the environment, particularly to birds, insects, amphibians, marine ecosystems, and soil organisms. They can also lead to a reduction in biodiversity, water pollution, and unsustainability.",True,0.6000000000000001,1.0
+82,83,msmarco,multi,what manu means in maori,"In the Māori language, 'manu' means bird or kite. The Māori kite is known as 'manu tukutuku' or 'manu aute', with 'manu' meaning kite or bird, and 'tukutuku' referring to the winding out of the line as the kite ascends.",True,1.0,1.0
+83,84,msmarco,multi,what triggers dissociative disorder,"Dissociative disorders are usually triggered by trauma, especially in children who have experienced long-term physical, sexual, or emotional abuse. Less commonly, they can also develop in unpredictable or frightening home environments, or as a result of natural disasters or combat experiences. These events can cause a person to dissociate, or disconnect from their thoughts, identity, consciousness, and memory, as a way to cope with the trauma they've experienced.",True,1.0,1.0
+84,85,msmarco,multi,what is chemical sedimentary composed of,"Chemical sedimentary rocks are composed of mineral crystals that have been dissolved out of water and then precipitated out of the solution, often at the base of a water body. These rocks are not made up of weathered sediment grains but instead contain crystals and other elements that came from water.",True,1.0,1.0
+85,86,msmarco,multi,do vinegar baths work for sunburn,"Yes, vinegar baths can be effective in treating sunburns and providing relief from symptoms such as burning, peeling, and pain. To create a vinegar bath for sunburn treatment, add two cups of apple cider vinegar or white vinegar to a bathtub of lukewarm water and soak in it for 15 to 20 minutes. Repeat this process 2 to 3 times daily until sunburn symptoms improve. 
+
+It is important to note that vinegar should not be sprayed or applied directly to the face and should be kept away from the eyes, as it can cause burning. If you experience fever, blisters, or chills after sunburn, seek medical attention immediately. Additionally, do not use vinegar for sunburn if there is blistering, as this indicates a second-degree sunburn that requires treatment with antibiotic creams.",True,1.0,0.9333333333
+86,87,msmarco,multi,name that means kind,"There are several names that mean ""kind,"" including: 
+- Dayakar
+- Esmun 
+- Atuf
+- Benicio
+- Ellis 
+- Cade 
+- Ellis 
+- Alicio 
+- Narkissos/Narcissus
+- Al-Karim 
+- Bujar
+
+Some names with similar meanings include: 
+- Fazli, meaning ""kind.""
+- Chiron, meaning ""kind one.""
+- Cedric, meaning ""kind and loved.""
+- Francis, meaning ""free man"" or ""Frenchman,"" also suggesting kindness and nobility. 
+
+These names have been popular for boys, especially in the 1930s-1960s, with a resurgence in recent years for some, like Ellis and Cade.",False,0.0,0.5
+87,88,msmarco,multi,average time for digestion in humans,"The average time for food to be fully digested in humans ranges from 24 to 72 hours, with some sources stating it can take up to 48 or even 72 hours in certain cases. This process includes the time it takes for food to pass through the stomach, small intestine, and large intestine (colon). The time it takes for food to pass through the gut alone is estimated to be between 24 and 56 hours. 
+
+It's important to note that digestion times can vary based on various factors such as gender, age, exercise habits, and the type of food consumed.",False,1.0,1.0
+88,89,msmarco,multi,starch also known as,"Starch, also known as cornstarch or corn flour, is a fine, powdery substance derived from corn. It has a variety of uses in baking and cooking, often used as a thickening agent.",False,0.4,0.4
+89,90,msmarco,multi,how long does it take irs to cash your check,"The IRS processes check payments electronically upon receipt, and the amount is typically debited from your account within 2 minutes of the payment envelope being opened at the IRS Service Center. If it takes a couple of days for your return to reach the Service Center, you can expect the check to clear within 2-3 days of mailing your return.",False,1.0,1.0
+90,91,msmarco,multi,average temperature in bali,"The average annual temperature in Bali, Indonesia is 28.1°C (82.6°F). However, the average temperature varies slightly throughout the year, with May being the hottest month at 28°C (82°F) and January being the coldest at 26°C (79°F). November is the hottest month in terms of average high temperatures, reaching 90°F, while July is the coolest month in terms of average low temperatures, dipping to 75°F.",False,0.8,1.0
+91,92,msmarco,multi,what is cpcu designation,"The CPCU (Chartered Property Casualty Underwriter) designation is a credential for insurance professionals who complete a rigorous program of study, including four foundation courses, one elective, three personal or commercial insurance courses, and eight national exams. It equips holders to meet the challenges of a demanding risk management and insurance marketplace with confidence and professionalism.",True,1.0,1.0
+92,93,msmarco,multi,what are the pelvic organs,"The pelvic organs include the bladder, rectum, and, in females, the uterus, vagina, ovaries, and fallopian tubes. In males, the pelvic cavity contains the bladder and rectum.",True,0.8,1.0
+93,94,msmarco,multi,how to make a large first letter in word,"To make a large first letter in Microsoft Word, follow these steps: 
+
+1. Type the first word, sentence, or paragraph of your document or section. 
+2. Click anywhere in the paragraph after the first letter you want to enlarge. Ensure you don't click at the beginning of the paragraph, or the Drop Cap feature won't be available. 
+3. Go to the ""Insert"" tab and click on the ""Add a Drop Cap"" menu in the Text section. 
+4. Choose the type of drop cap you want, such as ""Dropped"" or ""In the Margin."" 
+
+This will create a large dropped initial capital letter, also known as a ""dropped cap,"" which is commonly used to start a document, chapter, newsletter, or invitation.",False,1.0,1.0
+94,95,msmarco,multi,is glen campbell alive,"No, Glen Campbell is not alive. The country music singer passed away in 2017 at the age of 81, six years after being diagnosed with Alzheimer's disease. He was known for his music career spanning five decades, with hits such as ""Rhinestone Cowboy"" and ""By the Time I Get to Phoenix.""",True,0.0,0.2
+95,96,msmarco,multi,does daryl dixon die in the comic books,"No, Daryl Dixon does not die in the comic books because the character does not exist in that medium. Norman Reedus' character Daryl Dixon was created specifically for the TV show adaptation of ""The Walking Dead.""",True,1.0,1.0
+96,97,msmarco,multi,where on the map is jamaica island,"Jamaica is an island nation located in the Caribbean Sea, specifically in the northwestern region of the sea as part of the Greater Antilles. It is situated about 145 kilometers (90 miles) south of Cuba and 191 kilometers (119 miles) west of the island of Hispaniola, which includes the countries of Haiti and the Dominican Republic. Jamaica is the fifth-largest island country in the Caribbean and covers an area of approximately 10,990 square kilometers (4,240 square miles). The island stretches about 235 kilometers (146 miles) from east to west and expands to 82 kilometers (51 miles) at its widest point. Kingston, the capital and largest city of Jamaica, is located on the south coast of the island.",True,1.0,0.9230769231
+97,98,msmarco,multi,what is lemon curd,"Lemon curd is a thick, creamy, and rich spread or filling, often associated with Great Britain, where it has traditionally accompanied tea since the 18th century. It is made by cooking together lemon juice, eggs, and sugar. Some recipes also include butter, lemon zest, or whipped cream for extra richness and a silky mouthfeel. The simple ingredients are cooked until they thicken, resulting in a texture similar to custard or lemon meringue pie filling. Lemon curd can be used in a variety of ways, such as spread on scones, crepes, or toasted English muffins.",True,1.0,1.0
+98,99,msmarco,multi,the scientific name of the sea snail,"The scientific name of the Cerith Snail, a sea snail, is Cerithidae genus. This genus originates from the Caribbean Sea and the Eastern Pacific Ocean, including the waters off Mexico and Baja California. These sea snails can grow up to a size of around one inch.",True,1.0,1.0
+99,100,msmarco,multi,great barrier reef average temperatures,"The Great Barrier Reef experiences a tropical climate, with average summer temperatures between 24°C and 33°C, and winter temperatures ranging from 14°C to 26°C. The average maximum temperature is 30°C, and the average minimum is 21°C. The Tropical North region of the reef sees an average rainfall of 2010mm, with an average of 168mm per month.",True,1.0,1.0
+100,101,msmarco,multi,how fast does magnolia grandiflora grow,"The growth rate of Magnolia grandiflora, or Southern magnolia, varies depending on the cultivar and growing conditions. On average, Southern magnolias grow between 1 to 2 feet per year and are considered to have a slow-to-medium rate of growth. However, certain cultivars like ""Samuel Sommer"" and ""Claudia Wannamaker"" are known for their fast-growing capabilities, reaching heights of 30 to 40 feet tall.",True,1.0,1.0
+101,102,msmarco,multi,when were the jeffersons on,"The Jeffersons was broadcast on CBS from January 18, 1975, to June 25, 1985 (some sources state that the final episode aired on July 2, 1985). The show aired for 11 seasons and a total of 253 episodes.",True,1.0,0.75
+102,103,msmarco,multi,headliner repair cost,"The cost of repairing a car headliner varies depending on several factors, including the extent of the damage, your location, and whether you choose to do it yourself or hire a professional. 
+
+If you decide to repair the headliner yourself, the cost will mainly depend on the materials needed. A headliner replacement kit can cost around $50 to $95, and the foam-backed headliner material typically costs $10 to $20 per yard. You may also need additional tools and adhesives, which can add to the total cost. 
+
+On the other hand, hiring a professional service to repair your car headliner can cost anywhere from $200 to $2000 or more, depending on the type of vehicle and the service provider. Local auto repair shops typically charge between $200 and $350, while auto dealers may charge higher prices, ranging from $650 to $850. Boat dealers and aircraft shops have even wider price ranges, from $350 to $1650 and $600 to $2000 per yard, respectively. 
+
+It's important to note that these prices are averages, and the actual cost may differ based on your specific situation and the condition of your car headliner.",True,1.0,0.9473684211000001
+103,104,msmarco,multi,what is protein downstream processing,"Downstream processing is a crucial step in the manufacturing process of various pharmaceuticals and biological products, including proteins. It involves the recovery, purification, and preparation of these products for their intended use, ensuring they meet the required quality standards and are safe for their intended application. 
+
+In the context of protein purification, downstream processing specifically refers to the series of steps taken to isolate and purify a protein product, often obtained from natural sources or through recombinant technology, to a level suitable for its intended use, such as therapeutic applications. This process typically includes multiple chromatography steps, along with other techniques like solubilization, refolding, precipitation, and sterile filtration, to remove impurities and contaminants while retaining the structural integrity and functionality of the protein. 
+
+The overall goal of downstream processing is to produce a purified protein that meets regulatory guidelines and is safe and effective for its intended purpose, whether it be for therapeutic use, diagnostics, industrial applications, or other specialized functions. It is a critical field that ensures the reliability and consistency of protein-based products across various industries.",True,1.0,0.8518518519
+104,105,msmarco,multi,what is the generic name for cialis,The generic name for Cialis is tadalafil.,True,0.4,0.0
+105,106,msmarco,multi,do you cite everything in a research paper,"Yes, in a research paper, you must cite every piece of information that you have obtained from external sources. This includes facts, data, opinions, and ideas that are not your own original thoughts. The specific format of the citations may vary depending on the style guide you are using (such as MLA, APA, or Chicago style), but the fundamental principle of acknowledging your sources remains consistent. 
+
+Here are some key points to consider regarding citations in a research paper:
+
+1. In-text Citations: Whenever you directly quote, paraphrase, or summarize someone else's work, include an in-text citation. This typically involves mentioning the author's last name and the publication year, or, in the case of MLA style, the author's name and the page number. 
+2. Signal Phrases: You can introduce your citations with signal phrases that mention the author's name. For example, ""According to Smith (2010), the experiment yielded intriguing results.""
+3. Works Cited or Reference List: At the end of your paper, provide a detailed list of all the sources you have cited. This could be called a ""Works Cited"" page in MLA format or a ""Reference"" list in APA or Chicago style. 
+4. Secondary Sources: If you are using information from a source that is citing another source, make sure to cite the original source as well. 
+5. Page or Paragraph Numbers: In certain styles, like MLA, you are required to include page or paragraph numbers for direct quotations. However, this is not necessary if you are simply referring to general information from a source. 
+6. Common Knowledge: You don't need to cite widely known facts or common knowledge. Use your judgment to determine if the information is readily available in multiple sources and is widely accepted as true. 
+
+Remember, proper citation is crucial for academic integrity and gives credit to the scholars, researchers, and authors whose work has contributed to your own. By citing your sources accurately, you not only avoid plagiarism but also provide valuable guidance to readers who may want to explore your references further.",True,1.0,0.4615384615
+106,107,msmarco,multi,how much does it cost to spayed my female rabbit,"The cost of spaying a female rabbit can vary depending on your location and the individual vet or clinic. In general, prices can range from as low as $50 to several hundred dollars. On average, you can expect to pay around $100 to $200 for the procedure, with some vets charging up to $300 or more in major metropolitan areas. It is recommended to consult with a rabbit-knowledgeable vet, as rabbits require a different type of anesthesia than dogs and cats. Additionally, there may be additional costs for medications and follow-up visits.",False,1.0,0.8888888889000001
+107,108,msmarco,multi,name meaning etna,"The name Etna has multiple meanings and origins. 
+
+In the context of a volcano in Sicily, Italy, and a river in Norway, Etna likely refers to Mount Etna, an active volcano in Sicily that is the highest in Europe. 
+
+As a girl's name, Etna has Irish and Gaelic roots, meaning ""kernel."" It is a variant of the name Eithne. In this context, Etna was most popular as a baby name in 1902, ranking 914th. 
+
+Etna can also refer to a device used for heating liquids, consisting of a cup fixed in a saucer where alcohol is burned. This usage of the word likely originates from Mount Etna in Sicily due to its cone shape. 
+
+Finally, Aetna is a well-known brand name for a group of subsidiary companies providing healthcare and insurance-related products and services.",True,0.4,0.8235294118
+108,109,msmarco,multi,what is benaka use for,"Benaka Healthcare is a supplier, trader, exporter, and importer of medical equipment, established in 2009. They provide medical equipment such as medical scanner machines, X-ray machines, and digital X-ray systems.",False,1.0,1.0
+109,110,msmarco,multi,define what a single gene defect is,"A single gene defect, also known as a single-gene disorder or Mendelian trait, is a disease or condition caused by a mutation in a single gene located on a chromosome. This mutation leads to an altered sequence of nucleotides in the DNA, which can affect a single nucleotide pair or larger segments of a chromosome. As a result, the amino acid sequence in the proteins coded by this section of DNA is changed, potentially leading to various genetic disorders. Most inherited single gene defects are recessive, requiring an individual to inherit two copies of the mutated gene to express the disorder.",True,1.0,0.875
+110,111,msmarco,multi,what is mes,"MES stands for Manufacturing Execution System. It is a comprehensive control system that manages and monitors the activities and operations on a factory floor or shop floor. MES software tracks and documents the transformation of raw materials into finished goods, providing real-time data and insights to improve productivity, reduce costs, and optimize production output. The main goal of MES is to achieve and maintain high performance in a competitive and dynamic manufacturing environment.",True,1.0,0.7777777778
+111,112,msmarco,multi,how far is disneyland from universal studios,"Disneyland is located in Anaheim, while Universal Studios is about 40 miles north in Universal City. The driving distance between the two places is approximately 30 minutes to over 3 hours, depending on traffic conditions.",True,1.0,1.0
+112,113,msmarco,multi,how many carbs a day should i have,"The number of carbohydrates a person should consume each day depends on their calorie intake, age, and physical activity level. 
+
+For sedentary women between the ages of 19 and 30, a daily calorie intake of 1800-2000 is recommended, with carbohydrates making up 810 to 1300 of those calories. This equates to roughly 202.5 to 325 grams of carbohydrates per day. 
+
+Women who are aged 31 to 50 should consume slightly less, with a recommended daily calorie intake of 1800 and carbohydrate consumption of 202.5 to 292.5 grams. 
+
+If your goal is weight loss, and you aim for a daily calorie intake of 1400, your carbohydrate consumption should be between 630 and 910 calories, which is approximately 157 to 228 grams of carbs. 
+
+It is recommended that carbohydrates make up 45 to 65 percent of your total daily calorie intake, according to the 2010 Dietary Guidelines for Americans. 
+
+As an example, if you consume 1200 calories per day, you should aim for 135 to 195 grams of carbohydrates. If your daily calorie intake is 1600, you should aim for no more than 180 to 260 grams of carbohydrates. 
+
+It's important to note that these are general guidelines, and individual needs may vary. It's always best to consult with a healthcare professional or a registered dietitian to determine the specific carbohydrate and calorie intake that's right for you.",False,1.0,0.6842105263
+113,114,msmarco,multi,Nutritional Value of Corn Flakes,"Corn flakes have a high nutritional value and offer various health benefits. Here's a breakdown of their nutritional content: 
+
+- Serving Size: A typical serving size for corn flakes is around 30 grams or 1 cup, which is about 1 ounce in the MyPlate.gov Grains Group. 
+
+- Calories: The calorie count varies slightly depending on the brand and serving size, but generally, 30 grams of corn flakes contain around 110-120 calories. 
+
+- Fat: Corn flakes are often fat-free or very low in fat, with around 0-0.5 grams of fat per serving. 
+
+- Carbohydrates: They are a good source of carbohydrates, providing about 25-26 grams of carbs per 30-gram serving. 
+
+- Protein: The protein content is relatively low, with approximately 1-2 grams of protein per serving. 
+
+- Vitamins and Minerals: Corn flakes are enriched with vitamins and minerals. A 1-cup serving can provide about 30% of your daily recommended iron intake and 15% of your daily vitamin A needs. They also contain thiamin (vitamin B1), which helps produce energy from carbohydrates, and vitamin C, which acts as an antioxidant. 
+
+It's important to note that the nutritional values may vary slightly between different brands and serving sizes, so always check the nutrition label on the product you're consuming for the most accurate information.",True,1.0,0.85
+114,115,msmarco,multi,what age can you leave school in qld,"In Queensland, Australia, you can leave school when you turn 16 years old or finish Year 10, whichever comes first. However, it is expected that you will continue your education, whether that be through homeschooling, full-time employment, an apprenticeship, or some other form of training.",False,1.0,0.875
+115,116,msmarco,multi,does calcium carbonate have an odor,Calcium carbonate is odourless.,True,1.0,1.0
+116,117,msmarco,multi,what does the name vincent mean,"The name Vincent means ""conquering"" or ""to conquer."" It is a boy's name that has English, Latin, and American origins. The name is derived from the Latin name Vincentius and the element 'vincere', which means ""to win.""",True,1.0,1.0
+117,118,msmarco,multi,definition of a business association,"A business association is a membership-based organization that promotes the interests of its business members. It is often a nonprofit entity that seeks to advance its members' goals and improve their industry's image. Business associations can be beneficial for small businesses, providing advantages such as access to health insurance through local or regional chambers of commerce. However, it's important to note that not all business associations are equal in terms of their effectiveness or the benefits they offer.",True,1.0,0.9
+118,119,msmarco,multi,how long to cook chicken tenderloins in oven,"The cooking time for chicken tenderloins in the oven varies depending on the oven temperature and whether the tenderloins are frozen or thawed. 
+
+For an oven temperature of 375°F, bake frozen tenderloins for 20 to 30 minutes and thawed tenderloins for 15 to 25 minutes. 
+
+At a higher oven temperature of 425°F, the cooking time is shorter. Bake the tenderloins for 8 minutes on each side, for a total of 16 minutes. 
+
+However, some sources suggest a lower oven temperature of 350°F for boneless chicken breasts, cooking for 30 to 35 minutes. 
+
+It is important to ensure that the chicken is fully cooked by checking that the internal temperature reaches 165°F to 170°F, and that the juices run clear when the thickest part of the chicken is pierced.",False,0.2,1.0
+119,120,msmarco,multi,what are gallstones,"Gallstones, also known as cholelithiasis, are hardened stones or lumps composed of digestive fluids, cholesterol, salt, bilirubin, or other substances that form in the gallbladder or bile duct. The gallbladder is a small, pear-shaped organ located in the upper right abdomen, just below the liver, that stores bile, a digestive fluid produced by the liver. Gallstones can vary in size and may cause sudden pain if they block the ducts of the biliary tract.",True,1.0,1.0
+120,121,msmarco,multi,garage building cost per square foot,"The cost to build a garage ranges from $30 to $100 per square foot, depending on various factors such as labor, materials, and whether you hire a contractor.",True,0.6000000000000001,1.0
+121,122,msmarco,multi,what is foodstuffs,"Foodstuffs is a group of two New Zealand grocery and liquor retailers' cooperatives based in the North and South Islands. It controls an estimated 52% of the New Zealand grocery market. The company was founded in 1922 by J. Heaton Barker, who wanted to support independent grocers in Auckland facing competition from chain stores. The original co-operative buying group expanded with the introduction of the Four Square brand in 1925.",True,1.0,1.0
+122,123,msmarco,multi,how long to cook a sirloin tip roast per pound,"The cooking time for a sirloin tip roast varies depending on the desired doneness and cooking method. 
+
+For a medium-rare sirloin tip roast, it is recommended to cook it for about 20-25 minutes per pound at an oven temperature of 225 degrees Fahrenheit. 
+
+If you are cooking at a higher temperature of 325 degrees Fahrenheit, the cooking time would be around 25-30 minutes per pound for a medium-cooked roast. 
+
+It is always best to use a meat thermometer to check the doneness of your roast, as the exact cooking time may vary depending on your oven and the shape of the roast. The recommended internal temperature for a medium-rare roast is 140 degrees Fahrenheit, and for a medium roast, it is 145-150 degrees Fahrenheit. 
+
+Remember to always let your roast rest for about 15 minutes after cooking to allow the juices to redistribute and ensure a juicy and evenly cooked roast.",True,1.0,0.6428571429000001
+123,124,msmarco,multi,us average salary,"The average salary in the United States varies depending on the source and the specific demographic or geographic group being considered. Here are some figures from the provided context that relate to the average salary in the US:
+
+- According to the US Census Bureau, the average income for persons with doctorates in the US was roughly $81,400, while the average for an advanced degree was $72,824.
+- The mean household income in the US, according to the US Census Bureau 2014 Annual Social and Economic Supplement, was $72,641.
+- The real median household income in the US averaged $50,781 from 1964-2013.
+- The Federal Reserve reported that the real median household income in 2013 was $51,939.
+- The Bureau of Labor Statistics reported that the average American worker earned $24.57 per hour or $850.12 per week in December, indicating an annual salary of roughly $44,206.
+- The most frequent salary ranges in the US are from $45,000 to $55,000, with 28% of employees earning between $40,000 and $60,000.
+
+It's important to note that these figures may not be directly comparable due to differences in the specific groups or time periods being considered, and some of the information may be outdated. Additionally, average salaries can vary significantly by industry, geographic location, and other factors.",False,1.0,0.6842105263
+124,125,msmarco,multi,what is cefdinir prescribed for,"Cefdinir, sold under the brand name Omnicef, is a cephalosporin antibiotic that is prescribed to treat bacterial infections in different parts of the body, including the middle ear, soft tissues, respiratory tract, skin, and sinuses. It is effective against specific types of pneumonia, sinusitis, bronchitis, strep throat, and middle-ear infections. Cefdinir is not effective against viral infections, such as the flu, common cold, or stomach flu.",True,1.0,1.0
+125,126,msmarco,multi,what are admission rates out of,"The admission rates vary across different universities and depend on factors such as the number of applicants, changing admissions processes, and the emphasis on out-of-state or international students. Here are some examples of acceptance rates for the fall of 2013 and 2014 from the given context:
+
+- University of Texas at Austin: 40.2% overall acceptance rate for fall 2013
+- University of Colorado: 84% acceptance rate, the highest on the New York Times list
+- Stanford University: 7.1% acceptance rate
+- Yale University: 7.4% acceptance rate (6.72% the previous year)
+- Princeton University: 8.4% acceptance rate
+- Harvard University: 5.9% acceptance rate (5.8% the previous year)
+- Columbia University: 6.94% acceptance rate (6.89% the previous year)
+- Brown University: 8.6% acceptance rate (9.2% the previous year)
+- Cornell University: 14% acceptance rate (15.2% the previous year)
+- University of California: acceptance rates at selective campuses reached new lows, but the overall number of accepted freshmen increased by 4.8% from 2013
+
+These acceptance rates may vary from year to year and are influenced by the number of applicants and other factors considered by the admissions processes of each university.",False,1.0,1.0
+126,127,msmarco,multi,anila name meaning,"The name Anila has various meanings depending on the origin and language. In Indian, it means ""children of the wind."" In Sanskrit, it means ""the wind god."" In Sindhi, the name Anila is a girl's name.",True,1.0,0.33333333330000003
+127,128,msmarco,multi,what is extracellular fluid called,Extracellular fluid is also called extracellular fluid volume (ECFV) or tissue fluid.,True,0.2,1.0
+128,129,msmarco,multi,what is the eye,"The eye is a complex organ that enables us to see. It is not perfectly spherical but rather a fused two-piece unit. The smaller, transparent, and more curved frontal unit is called the cornea, which is linked to the larger, white unit called the sclera. 
+
+Light enters the eye through the cornea, which also begins the process of focusing light rays. Behind the cornea is the lens, which helps to focus light onto the back of the eye. The inside lining of the eye is covered by light-sensing cells called the retina, which converts light into electrical impulses. These impulses are then carried to the brain by the optic nerve. 
+
+The eye also contains a clear, jelly-like substance called the vitreous humor, which makes up about 80% of the eye's volume. The small central area of the retina, called the macula, provides the sharpest vision. 
+
+The eye is a fascinating and intricate organ, allowing us to perceive the world around us through sight.",False,1.0,0.9473684211000001
+129,130,msmarco,multi,self transcendence theory definition,"Self-transcendence is a concept in psychology and philosophy that refers to the act or experience of going beyond one's ego or self-concepts and connecting with others and the world on a deeper, more fundamental level. It is associated with spiritual ideas and a sense of unity and harmony with the universe. Self-transcendence involves focusing attention on serving others and improving oneself to fulfill one's potential. It is a key part of psychologist Abraham Maslow's thinking and transpersonal psychology, and it has been incorporated into theories of personality and spiritual care, particularly in aging.",False,1.0,1.0
+130,131,msmarco,multi,cost of a hockey stick,"The cost of a hockey stick can vary depending on the type of stick and the quality you are looking for. For a basic wooden stick, you can expect to pay anywhere from $10 to $50. Composite sticks, which are made of more expensive materials, can range from $20 to $500, with most falling between $100 and $400. 
+
+It's important to note that the flex, curve, and design of a hockey stick can also influence the price, and certain brands may offer higher-priced options. Additionally, the length of the stick can also affect the cost, with senior composite sticks typically being longer and costing more. 
+
+If you are just starting out, a wooden stick in the $20-$30 range should be sufficient. For more experienced players or those looking for higher-quality equipment, a composite stick in the $100-$200 range would be a good option.",True,1.0,0.5
+131,132,msmarco,multi,how long does the beard have to be on a turkey,"The length of a turkey's beard varies depending on the age and sex of the bird. For male turkeys, or gobblers, the beard typically starts growing when they are about 5 months old and continues to grow throughout their lives. The length of the beard can be used to estimate the age of a gobbler:
+
+- A one-year-old gobbler, or ""jake,"" typically has a beard length of barely visible to a maximum of about 4-5 inches.
+- A two-year-old gobbler usually has a beard that is 5 to 7 inches long, and the tips of the filaments will be mostly amber.
+- A three-year-old gobbler's beard typically measures 8 inches or more, but due to wear, most 3-year-old and older gobblers have beards that are ""only"" 9 to 10 inches long, with mostly black tips.
+
+It's important to note that there can be exceptions to these estimates, as some factors like habitat and leg length can influence beard length. Additionally, a small percentage of female turkeys, or hens, may also grow beards, typically measuring 6 to 8 inches in length.",False,1.0,1.0
+132,133,msmarco,multi,which is a standard theory of how fossil fuels formed,"The most widely accepted theory of how fossil fuels formed is the Biogenic theory, which was first proposed by Mikhail Lomonosov in 1757. This theory suggests that fossil fuels are formed from the remains of dead plants and animals that have been exposed to heat and pressure in the Earth's crust over hundreds of millions of years. The organic material, originally derived from the sun's energy through photosynthesis, is transformed into hydrocarbons that contain energy-rich carbon and hydrogen bonds. This process results in the formation of coal, oil, and natural gas, which are the primary fossil fuels used today.",False,1.0,1.0
+133,134,msmarco,multi,what cultural difference between micronesia polynesia and melanesia,"Melanesia, Micronesia, and Polynesia are three distinct cultural areas in the Pacific Ocean, each with its own unique characteristics and history. Here are the cultural differences between them:
+
+**Melanesia:**
+- Inhabited by Melanesian people who are genetically related to Negroid and Australian Aboriginal groups.
+- Melanesian people typically have dark skin and afro-textured hair.
+- Located mostly below the equator in the southwestern Pacific, including islands such as New Guinea.
+- The area consists of thousands of islands with a diverse range of cultures, art forms, and religions.
+
+**Micronesia:**
+- Inhabited by people who are genetically distinct from Melanesians and are thought to originate from the Indonesian area.
+- Located above the equator and consists of small groups of islands, including the Marshall Islands, Marianas Islands, Palau, and the Federated States of Micronesia.
+- Includes low-lying coral atolls and covers a total land area of approximately 2,700 square kilometers.
+
+**Polynesia:**
+- Inhabited by people who are genetically distinct from both Melanesians and Micronesians, with origins tracing back to the original tribes of Taiwan.
+- Polynesia covers a large and diverse geographical area, including all island types such as continental and volcanic islands.
+- Polynesians are generally lighter-skinned compared to Melanesians.
+- Located within a triangle formed by Hawaii, Easter Island, and New Zealand, and includes other islands such as Tonga, Samoa, Cook Islands, French Polynesia, and Tahiti.
+
+In summary, the cultural differences between these three areas lie in their distinct genetic origins, physical characteristics, geographical locations, and unique cultural practices.",False,0.8,0.8666666667
+134,135,msmarco,multi,what structure in the knee prevents hyperextension,"The tendons and ligaments in the knee prevent hyperextension. Specifically, the hamstring tendons, gastrocnemius tendons, and the posterior cruciate ligament (PCL) work together to prevent the knee from hyperextending. The PCL also works with the anterior cruciate ligament (ACL) to control the passive 'screw home' mechanism of the knee in terminal knee extension. Additionally, the patellar ligament holds the patella in place on the anterior surface of the knee.",False,0.4,0.8888888889000001
+135,136,msmarco,multi,what is meant by genetic mutation,"A genetic mutation refers to a permanent alteration in the DNA sequence of a gene or chromosome. It represents a change in the genetic composition of a cell, specifically in the nucleic acid sequence of the genotype of an organism. These mutations can occur due to damage to DNA that is not repaired, errors during DNA replication, or the insertion/deletion of DNA segments by mobile genetic elements. The effects of genetic mutations can vary, ranging from no observable impact to significant changes in an organism's characteristics or functionality of certain genes.",True,1.0,1.0
+136,137,msmarco,multi,does glucosamine cause gout,"No, taking glucosamine is not likely to cause gout or have any effect on it. Gout is a form of arthritis caused by the buildup of uric acid crystals in the joints, leading to sudden and severe attacks of pain, redness, and tenderness. While glucosamine is often used to treat arthritis and joint degeneration, its link to gout is through its potential ability to reduce inflammation and pain associated with the condition. However, it is important to note that gout is typically treated with medication, sometimes including glucosamine and chondroitin sulfate, to manage symptoms and reduce uric acid levels.",True,1.0,0.8
+137,138,msmarco,multi,are oxygen tanks pressurized tanks,"Yes, oxygen tanks are pressurized tanks that hold oxygen or liquid oxygen. The oxygen is stored under pressure in gas cylinders or as liquid oxygen in a cryogenic storage tank.",False,1.0,1.0
+138,139,msmarco,multi,what occurs in the synapse between neurons,"A synapse is a junction or gap between two neurons, or between a neuron and an effector organ, that allows the transmission of neural impulses or signals. These signals can be electrical or chemical. 
+
+In a chemical synapse, neurotransmitter molecules are released from the presynaptic neuron into the synaptic cleft—the small space between the two neurons. These molecules then bind to receptor sites on the postsynaptic neuron, triggering an electrical signal in that neuron. 
+
+Synapses are essential for neural communication and allow neurons to form circuits within the central nervous system. They can occur between various parts of neurons, such as between an axon and a dendrite (axo-dendritic synapse) or between axon terminals (axo-axonic synapse). Astrocytes, which are non-neuronal cells, also play a role in synaptic function by exchanging information with the neurons and regulating neurotransmission.",False,1.0,0.8333333333
+139,140,msmarco,multi,cost to add commercial walls,"The cost of adding commercial walls can vary depending on the materials used, labor rates, and the complexity of the project. 
+
+For a basic partition wall with one side drywalled and finished, the cost is approximately $4 per square foot. This includes framing and drywall, but not texture. 
+
+Building walls with Insulated Concrete Forms (ICFs) can add $1 to $4 per square foot to the construction cost, but ICF buildings are more energy-efficient, which can result in savings on heating and cooling equipment. 
+
+Other factors that can influence the cost include the need for electrical or HVAC work, as well as the regional labor rates for carpenters, electricians, and painters. 
+
+It is always recommended to get multiple quotes from contractors and to consult with an engineer for projects that require structural integrity, such as retaining walls over 3 feet high.",True,1.0,0.8823529412000001
+140,141,msmarco,multi,do you dry your cold sore out or keep it moist,"There is conflicting advice on whether to dry out or keep a cold sore moist. Some sources suggest that drying out the sore involves applying an astringent, while others recommend keeping it moist with cream or oil to possibly reduce inflammation and prevent bacterial infections. It is also suggested that keeping the sore moist may deprive it of oxygen, which could help in treatment. Ultimately, it may be a matter of personal preference and effectiveness for the individual.",True,1.0,0.6000000000000001
+141,142,msmarco,multi,what does xenon mean,"Xenon has a few different meanings depending on the context. 
+
+In chemistry, xenon is a rare, colorless, odorless, and inert gaseous element that occurs in trace amounts in the Earth's atmosphere and is used in specialized lighting and scientific research. It is a noble gas and has the atomic number 54. 
+
+In Greek, Xenon is a boy's name meaning ""stranger."" 
+
+In automotive technology, xenon is used in headlights, known as bi-xenon headlights, which provide a strong light output for both low and high beams. 
+
+Is there anything else you would like to know or clarify about the word ""xenon""?",True,1.0,1.0
+142,143,msmarco,multi,what is genu varum,"Genu varum, also known as bow-leggedness, is a physical deformity characterized by the outward bowing of the legs at the knee. It is caused by defective growth on the medial side of the epiphyseal plate, which can be the result of various conditions that affect bone formation, such as rickets. This disorder is noticeable when a person is standing with their feet together but has a noticeable gap between their knee joints.",True,1.0,0.875
+143,144,msmarco,multi,average temperature in palm springs in february,The average temperature in Palm Springs in February is around 67 degrees Fahrenheit (or 19 degrees Celsius).,True,1.0,0.5
+144,145,msmarco,multi,where is volcano california located,"Volcano, California, is located in Amador County, in the northern part of the state. It lies at an elevation of 2070 feet (631 m) and has a population of 115 people as of the 2010 census. The primary coordinate point for Volcano is 38.4456 degrees north latitude and -120.6305 degrees west longitude.",True,1.0,0.8333333333
+145,146,msmarco,multi,what is rqwl in rajdhani,"RQWL stands for Remote Quota Waiting List. It is a type of waiting list used for intermediate stations on the train route. The first half of the status, RQWL, indicates your booking status, while the second half indicates your current status, which can change depending on cancellations of previously confirmed tickets.",True,0.8,1.0
+146,147,msmarco,multi,interest subsidy means in educational loan,"Interest subsidy in the context of educational loans refers to when the government or a specified entity pays the interest accrued on a loan taken out by a student, typically during periods when the student is enrolled in school or in a defined grace period after graduation. This effectively gives the loan a zero percent interest rate during these specified periods, reducing the overall financial burden on the borrower.",False,1.0,0.8
+147,148,msmarco,multi,python how to append to a list,"To append an element to a list in Python, you can use the append method. The append method allows you to add a single item to the end of an existing list. Here's an example code snippet:
+
+my_list = [1, 2, 3]
+my_list.append(4)
+print(my_list) # Output: [1, 2, 3, 4]
+
+In this example, we have a list my_list with initial elements [1, 2, 3]. We then use the append method to add the element 4 to the end of the list. After appending, the updated list becomes [1, 2, 3, 4].
+
+You can also use the extend method if you want to add multiple elements or another list to the end of an existing list. Here's an example:
+
+my_list = [1, 2, 3]
+my_list.extend([4, 5, 6])
+print(my_list) # Output: [1, 2, 3, 4, 5, 6]
+
+In this example, we extend my_list with the elements [4, 5, 6], resulting in the updated list [1, 2, 3, 4, 5, 6].",True,1.0,0.375
+148,149,msmarco,multi,what is RNA polymerase,"RNA polymerase, also known as RNAP or RNApol, is an enzyme that plays a crucial role in the process of transcription. During transcription, RNA polymerase creates a messenger RNA molecule by using a DNA template. This enzyme is found in all organisms and many viruses, and it is essential for the creation of RNA chains, which are vital for gene expression and protein synthesis. The structure of RNA polymerase varies across different species, with prokaryotes typically having a single type, while eukaryotes have three distinct types. The Nobel Prize in Chemistry in 2006 was awarded to Roger D. Kornberg for his detailed imaging of RNA polymerase during transcription.",False,1.0,0.8666666667
+149,150,msmarco,multi,what is a pseudocoelomate,"A pseudocoelomate is a type of invertebrate that possesses a three-layered body with a unique body cavity called a pseudocoel, or pseudocoelom, between its innermost (endoderm) and middle (mesoderm) tissue layers. This body cavity is filled with fluid and is considered fully functional, although it is only partly lined by tissue derived from the mesoderm. Examples of pseudocoelomates include nematodes and rotifers.",True,1.0,1.0
+150,151,msmarco,multi,cost of picket fence per foot,"The cost of a picket fence per foot varies depending on the material used and the height of the fence. On average, the cost per foot for a picket fence is $20 to $30. 
+
+For a basic 25 linear feet project, the benchmark cost to install a picket fence ranges between $22.71 and $31.87 per linear foot. 
+
+For a 4-foot-high fence made of wood, the cost is approximately $15 to $20 per foot for a cedar picket fence and $30 per foot for a 6-foot cedar privacy fence. 
+
+Vinyl picket fences are more expensive, with an approximate cost per foot of $30 to $40, depending on height. 
+
+It is important to note that these are estimates, and the actual cost may vary depending on specific materials, dimensions, and labor costs.",True,1.0,0.8333333333
+151,152,msmarco,multi,average window cost installation,"The average cost of window installation varies depending on various factors, but it typically ranges from $85 to $960+ per window. The overall cost can be influenced by factors such as the type of window, the number of windows being replaced, and the condition of the window sills and jambs. 
+
+According to different sources, the average cost for window installation can be estimated as follows:
+- $4,264 according to one window installation cost estimator
+- $4,747 based on project costs reported by HomeAdvisor members, with most homeowners spending between $2,643 and $7,091
+- $125 per opening for a standard-sized casement, double-hung, or slider window, with the condition of sills and jambs being a significant factor
+- $200 to $400 for a standard-sized window, with prices varying based on window type and size
+
+It's important to note that these estimates may not include the cost of the windows themselves, which can vary widely depending on the type, style, and materials used.",True,1.0,0.5
+152,153,msmarco,multi,what is a designated learning institution,"A designated learning institution is a post-secondary school that has been approved by the government to host international students. These institutions are typically colleges, universities, or other educational institutions that offer higher education beyond high school. Each province or territory in Canada designates educational institutions for this purpose. To apply for a study permit to study in Canada, international students need to provide a letter of acceptance from one of these designated learning institutions, along with the institution's designated learning institution number (DLI #), which begins with the letter ""O.""",False,1.0,0.5714285714
+153,154,msmarco,multi,is the bermuda triangle real,"The Bermuda Triangle, or the Devil's Triangle, is a mythical section of the Atlantic Ocean located off the coast of Bermuda, bounded by Miami, Bermuda, and Puerto Rico. It has gained notoriety due to the mysterious disappearances of numerous aircraft and vessels within this area over the centuries. However, investigations have revealed that the mystery surrounding the Bermuda Triangle is likely an over-hyped hoax.",True,1.0,1.0
+154,155,msmarco,multi,how long can I leave fried eggplant in refrigerator,"Fried eggplant can be stored in the refrigerator for up to a week. However, it is recommended to freeze fried eggplant if you plan on storing it for longer than a week. To do this, place the fried eggplant on a baking sheet and put it in the freezer for about two hours until each slice is frozen individually. Once frozen, transfer the slices to a freezer-safe container, where they will stay fresh for about three to four months.",True,0.0,0.7142857143
+155,156,msmarco,multi,average cost for one dental implant,"The average cost for a single dental implant, including the implant, abutment, crown, and surgery, can range from $1,000 to $5,000 in the United States. The cost can vary depending on various factors, such as the location, the experience of the surgeon, and the quality of the facilities and materials used. Additional procedures, such as bone grafts or extractions, can also increase the overall cost.",True,0.8,1.0
+156,157,msmarco,multi,average temperatures for denver colorado,"Denver, Colorado, has a mild climate with the highest average temperature in July, reaching 74 degrees Fahrenheit or 88.0 degrees Fahrenheit during the day, and the coldest month being January with an average overnight temperature of 15.2 degrees Fahrenheit. The average daily high temperature in August is 86 degrees Fahrenheit, and in December, the average temperature is 28.5 degrees. Denver also experiences a good amount of sunshine, with an average of over 300 sunny days per year.",False,1.0,1.0
+157,158,msmarco,multi,max amount you can claim for daycare,"The maximum amount that can be claimed for daycare expenses depends on several factors, including the number of children, their ages, and their dependency status. 
+
+For U.S. taxpayers, the maximum credit for dependent care expenses was $2,100 per year as of 2012, but this was available only to taxpayers with more than one dependent, at least $6,000 in annual dependent care expenses, and an adjusted gross income of $15,000 or less. For child care expenses specifically, you can claim up to $3,000 per child for a maximum of two children, resulting in a total of $6,000. 
+
+For Canadian taxpayers, the amounts are higher. You can claim up to $7,000 per child for children under 7 years old and up to $4,000 per child for children aged 7 to 16. For disabled, dependent children who qualify for the disability tax credit, the amount is $10,000 per child. 
+
+It's important to note that these are maximum amounts, and the actual credit amount may be lower depending on your income and other factors.",True,,0.9333333333
+158,159,msmarco,multi,ivan name pronunciation,"The name Ivan has multiple accepted pronunciations depending on the language and cultural context. Here are a few:
+
+- ee-VAHN (English)
+- iy-V AA N (Russian)
+- AY-VahN (Standard Russian, as noted by another source)
+- EYE-van (English)
+
+These pronunciations may vary slightly depending on regional accents and dialects.",False,0.8,0.5
+159,160,msmarco,multi,how long does it take to get wellbutrin out of your system,"The elimination of Wellbutrin from the body varies and can take anywhere from 3 days to several weeks. The drug has a long half-life of approximately 33 to 37 hours, and its slow rate of absorption can result in prolonged presence in the body. Individual factors such as health status, duration of Wellbutrin usage, hydration levels, and metabolism also influence the time it takes for the drug to be completely eliminated.",True,1.0,1.0
+160,161,msmarco,multi,what is the range of credit scores,"The credit score range is typically from 300 to 850, with a higher score indicating lower credit risk. However, it's important to note that different credit scoring models may have slightly different score ranges, such as the Equifax Credit Score range of 280 to 850.",False,1.0,1.0
+161,162,msmarco,multi,personal is political meaning,"""The personal is political"" is a phrase popularized by radical feminist Carol Hanisch in a 1969 essay of the same name. The phrase argues that women's personal problems are connected to the structure of power in society and that personal realizations about one's position as a woman are as important as political action. It was a common slogan of the feminist movement in the late 1960s and 1970s, with many second-wave feminists using it in their writing, speeches, and consciousness-raising activities.",False,1.0,1.0
+162,163,msmarco,multi,what is lethal dose caffeine,"The lethal dose of caffeine is generally considered to be around 150 milligrams per kilogram of body weight, which corresponds to approximately 80-100 cups of coffee consumed in a short period of time. This amount is difficult to reach by simply drinking coffee, but it is possible to reach a lethal dose through caffeine pills or for individuals who have a slower metabolism of caffeine.",False,1.0,1.0
+163,164,msmarco,multi,are personality traits inherited in cats?,"Yes, personality traits can be inherited in cats, just as they are in many other species. While individual cats may display unique personalities, there are certain traits that are common across all members of the feline species. These include their independent nature, cleanliness habits, and ability to be aloof and quiet when needed. Additionally, physical traits such as skin and eye color, as well as dietary preferences and hunting abilities, may also be inherited. It's important to note that selective breeding and in-breeding in pedigree cats can increase the risk of certain inherited disorders, just as it can in other animals.",True,0.0,0.7857142857
+164,165,msmarco,multi,what does endoluminal mean,"Endoluminal refers to procedures, devices, or techniques that are used within the lumen of a tubular structure in the body, such as blood vessels or the gastrointestinal tract. It can also be defined as ""existing or performed within a tube or hollow structure in the body.""",True,1.0,0.4
+165,166,msmarco,multi,what state is woodstock in,"Woodstock is in the state of New York. It is located in Ulster County, in the northern part of the county, northwest of Kingston, and within the borders of the Catskill Park.",True,1.0,1.0
+166,167,msmarco,multi,what is labelling a person,"Labelling a person refers to the act of assigning a descriptive word or phrase to an individual, often based on stereotypes or assumptions about their tendencies, behaviors, appearance, or group affiliations. It involves making a judgment or assumption about someone and then attaching a label to them that may or may not accurately reflect who they are. This label can influence how the person is perceived and treated by others, potentially leading to prejudice, discrimination, and stigmatization. Labelling theory suggests that these labels can shape a person's self-identity and behavior, as they internalize how others view them.",True,1.0,1.0
+167,168,msmarco,multi,ativan is what class,"Ativan, also known as Lorazepam, is a drug in the benzodiazepine class.",True,1.0,1.0
+168,169,msmarco,multi,weight is measured in what unit,Weight is measured in Newtons in the SI system.,True,1.0,1.0
+169,170,msmarco,multi,why do i need to learn fractions,"You need to learn fractions because the techniques you learn for fractions are the same as those needed for parts of algebra. Fractions are the foundation for more advanced mathematical concepts, and without a solid understanding of fractions, you will find learning algebra and other higher-level math more challenging. Additionally, fractions are essential for division, which is a crucial skill in mathematics and problem-solving. Understanding fractions will also help you improve your grades and provide a strong foundation for your mathematical education.",True,1.0,0.6666666667000001
+170,171,msmarco,multi,did einstein have grad students,"The question seems to be based on a misconception. Albert Einstein did not attend graduate school himself, let alone teach graduate students. There seems to be a misunderstanding regarding Einstein's educational background. 
+
+While it is true that Einstein did not graduate from college directly after high school, the idea that he was expelled or failed at high school is a myth. Einstein entered high school at the age of 9 and later dropped out to enroll in Zurich Polytechnic, now known as the Swiss Federal Institute of Technology (ETH Zurich). He then attended the Cantonal School in Aarau, where he excelled academically. 
+
+However, Einstein's educational journey had its challenges. He faced issues with the strict and regimented teaching methods of the time, which may have contributed to his decision to leave high school. Nonetheless, he went on to achieve extraordinary academic success, developing his theories of relativity and making groundbreaking contributions to the field of physics. 
+
+So, to clarify, Einstein did not have graduate students as he himself did not attend graduate school. His academic career had its unique twists and turns, but his intellectual prowess and contributions to science are undeniable.",True,0.0,0.4090909091
+171,172,msmarco,multi,definition of toroidal,"The definition of toroidal is having a torus or doughnut shape. In other words, it is a ring-shaped surface generated by rotating a circle around an axis external to the circle that does not intersect it. Toroidal shapes are commonly used in the design of certain electronic components, such as inductors and transformers, and are known for their ability to provide higher inductance compared to other shapes.",True,1.0,0.7777777778
+172,173,msmarco,multi,what is hepatitis c?,"Hepatitis C is a disease caused by the Hepatitis C virus (HCV) that infects the liver. It is one of several hepatitis viruses, including Hepatitis A, B, D, and E, and is primarily spread through exposure to infected blood, often from sharing needles or injecting drugs. Hepatitis C can lead to chronic infection, liver damage, liver failure, liver cancer, and even death. There is currently no vaccine available for Hepatitis C.",True,1.0,1.0
+173,174,msmarco,multi,cost to renew an expired license,"The cost to renew an expired license varies by state and the type of license being renewed. Here are the costs mentioned in the context:
+
+- Maryland: If your license has been expired for one year or more, you will need to pay the new resident driver's license fee. The specific amount is not mentioned.
+- Illinois: The renewal fee for an expired Illinois driver's license is not specified, but there may be additional testing requirements if the license has been expired for more than a year.
+- Louisiana: The standard renewal fee for a Louisiana driver's license valid for 6 years is $32.25 to $38.25. If your license is expired for more than 10 days, there is an additional late fee of $15.
+- Unknown location: For Class R renewals, the standard renewal fee is $24, and there is a late fee surcharge of $1 for expired licenses. Individuals 65 years of age or older can renew their operator license for two years at a cost of $72.
+
+Please note that these costs may not be up-to-date and may not include additional fees or charges. It is always best to check with your local DMV or licensing authority for the most accurate and current information.",False,0.4,0.6428571429000001
+174,175,msmarco,multi,can i transfer my division character,"I'm sorry, but I can't find any information in the context provided about transferring a character in ""The Division."" If you provide me with additional information or context, I may be able to answer your question.",False,1.0,0.0
+175,176,msmarco,multi,drugs are used to treat symptoms such as delusions,"Several drugs can be used to treat symptoms such as delusions, including antipsychotic medications such as paliperidone (Invega), clozapine (Clozaril), risperidone (Risperdal), olanzapine (Zyprexa), haloperidol (Haldol), quetiapine (Seroquel), trifluoperazine (Stelazine), prochlorperazine (Compazine), and loxapine (Daxolin, Loxitane). These medications are typically prescribed to treat psychotic disorders and symptoms, including delusions, hallucinations, and hostility.",True,1.0,1.0

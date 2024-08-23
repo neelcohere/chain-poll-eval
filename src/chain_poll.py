@@ -34,16 +34,35 @@ You are an LLM Hallucination Evaluator tasked with judging whether the provided 
 ## Context
 {context}
 
+## Question
+{question}
+
 ## Response
 {response}
 
 ## Task
 Produce a judgement that compare the relevance of the context to the response. For each judgement:
-1. Think step by step and check if the claims made by the Response are fully supported by the documents in the Context. 
-2. First analyze each document with detailed reasoning for EACH of the documents in context including how it does or does not support the response. Respond with this in the "reasonings" key in the JSON. Make sure ALL documents are included.
-3. Then perform an overall analysis summarizing the results across all documents. Respond with this in the "summary" key in the JSON
+1. Think step by step and check if the claims made by the Response to answer the provided Question are fully supported by the documents in the Context. 
+2. First analyze each document with detailed reasoning for EACH of the documents in Context including how it does or does not support the Response and the Question. Respond with this in the "reasonings" key in the JSON. Make sure ALL documents are included.
+3. Then perform an overall analysis summarizing the reasoning across all documents to show if the Response has answered the Question without hallucinating. Respond with this in the "summary" key in the JSON
 4. Based on the results and analysis, also include a Yes (if supported) or No (if not supported) if the reponse is fully supported by looking at all the documents. Include this as the "judgement" key in the JSON. 
 
+## Quotation Marks Formatting
+When producing reasonings for the documents and the reasoning summary, DO NOT include any single quotes (') or any double quotes (") in the generated text.
+"""
+
+SAMPLE_JSON = """
+## JSON Output Example
+Here is an output example:
+{
+    "reasonings": [
+        {"document": 1, "reasoning": "document 1 Elizabeths role in..."},
+        {"document": 2, "reasoning": "Document 2 captures the concept of the book, A Final Problem really..."},
+        ...
+    ],
+    "summary": "Among the documents provided, only...",
+    "judgement": "Yes"
+}
 """
 
 
@@ -54,9 +73,9 @@ class Reasoning(BaseModel):
 
 
 class Record(BaseModel):
-    reasonings: List[Reasoning] = Field(description="summarized reasoning for this judgement by individually evaluating the relevance of the Response against EACH documents in Context. Think step-by-step and provide verbose, detailed reasoning to explain you judged the relevance.")
-    summary: str = Field(description="final reasoning explanation that summarizes all reasonings for all documents")
-    judgement: str = Field(description="Yes if the reasoning indicates that the Response is relevant to and supported by the Context or else No")
+    reasonings: List[Reasoning] = Field(description="summarized reasoning for this judgement by individually evaluating the relevance of the Response against EACH documents in Context. Think step-by-step and provide verbose, detailed reasoning to explain you judged the relevance. DO NOT include any single quotes (\') or any double quotes (\") in the generated text.")
+    summary: str = Field(description="final reasoning explanation that summarizes all reasonings for all documents. DO NOT include any single quotes (\') or any double quotes (\") in the generated text.")
+    judgement: str = Field(description="Yes if the reasoning indicates that the Response is relevant to and supported by the Context or else No.")
 
 
 # class Records(BaseModel):
@@ -72,12 +91,13 @@ class ChainPollEval(BaseEval):
     """
     TOTAL_RUNS = 5
 
-    def __init__(self, *, api_key: str, model: str):
+    def __init__(self, *, api_key: str, model: str, docs: bool=False):
         super().__init__()
         self.api_key = api_key
         self.model = ChatOpenAI(
             api_key=self.api_key, model=model
         )
+        self.docs = docs
 
     def load_data(self, *, path: str | os.PathLike, samples: Optional[int]=None, subset: Optional[SourceType]=None) -> None:
         if samples is not None and subset is not None:
@@ -90,35 +110,62 @@ class ChainPollEval(BaseEval):
             self.dataset = self.dataset[self.dataset["source"] == subset.lower()]
         if samples is None and subset is None:
             self.dataset = pd.read_csv(path)
-        cols_to_keep = [
-            "unrendered_prompt",
-            "generations",
-            "prompted_evaluator_score_command-r_generations",
-            "source",
-        ]
+
+        if self.docs:
+            cols_to_keep = [
+                "generations",
+                "contexts",
+                "prompted_evaluator_score_command-r_generations",
+                "question",
+                "source",
+            ]
+        else:
+            cols_to_keep = [
+                "unrendered_prompt",
+                "generations",
+                "prompted_evaluator_score_command-r_generations",
+                "source",
+            ]
         drop_columns = [col for col in self.dataset.columns if col not in cols_to_keep]
         self.dataset = self.dataset.drop(columns=drop_columns)
-        # apply data cleaning
         self.dataset["record_no"] = range(1, self.dataset.shape[0] + 1)
-        self.dataset["question"] = self.dataset["unrendered_prompt"].apply(self._extract_question)
-        self.dataset["unrendered_prompt"] = self.dataset["unrendered_prompt"].apply(self._extract_unrendered_prompt)
-        self.dataset = self.dataset.dropna(subset=["unrendered_prompt"])
-        self.dataset["generations"] = self.dataset["generations"].apply(self._extract_generation)
-        self.dataset["judgement_prompt"] = self.dataset.apply(self._create_judgement_prompt, axis=1)
-        self.dataset["prompted_evaluator_score_command-r_generations"] = \
-            self.dataset["prompted_evaluator_score_command-r_generations"].apply(self._extract_evaluator_score)
-        self.dataset = self.dataset.rename(columns={
-            "generations": "response",
-            "unrendered_prompt": "context",
-            "prompted_evaluator_score_command-r_generations": "score",
-        })
+
+        # apply data cleaning (docs)
+        if self.docs:
+            self.dataset = self.dataset[self.dataset['contexts'].apply(lambda x: x != [])]
+            self.dataset["unrendered_prompt"] = self.dataset["contexts"].apply(self._extract_contexts)
+            self.dataset["generations"] = self.dataset["generations"].apply(self._extract_generation)
+            self.dataset["judgement_prompt"] = self.dataset.apply(self._create_judgement_prompt, axis=1)
+            self.dataset["prompted_evaluator_score_command-r_generations"] = \
+                self.dataset["prompted_evaluator_score_command-r_generations"].apply(self._extract_evaluator_score)
+            self.dataset = self.dataset.rename(columns={
+                "generations": "response",
+                "unrendered_prompt": "context",
+                "prompted_evaluator_score_command-r_generations": "score",
+            })
+
+        # apply data cleaning (non docs)
+        else:
+            self.dataset["question"] = self.dataset["unrendered_prompt"].apply(self._extract_question)
+            self.dataset["unrendered_prompt"] = self.dataset["unrendered_prompt"].apply(self._extract_unrendered_prompt)
+            self.dataset = self.dataset.dropna(subset=["unrendered_prompt"])
+            self.dataset["generations"] = self.dataset["generations"].apply(self._extract_generation)
+            self.dataset["judgement_prompt"] = self.dataset.apply(self._create_judgement_prompt, axis=1)
+            self.dataset["prompted_evaluator_score_command-r_generations"] = \
+                self.dataset["prompted_evaluator_score_command-r_generations"].apply(self._extract_evaluator_score)
+            self.dataset = self.dataset.rename(columns={
+                "generations": "response",
+                "unrendered_prompt": "context",
+                "prompted_evaluator_score_command-r_generations": "score",
+            })
+
         self.dataset["doc_type"] = self.dataset["context"].apply(lambda x: "multi" if len(x) > 1 else "single")
         
     def run_eval(self, parallel: bool=False) -> None:
         # generate judgement for each record
         parser = JsonOutputParser(pydantic_object=Record)
         cp_prompt = PromptTemplate(
-            template="{prompt}" + "\n## Format instructions\n{format_instructions}",
+            template="{prompt}" + SAMPLE_JSON + "\n## Format instructions\n{format_instructions}",
             input_variables=["prompt"],
             partial_variables={"format_instructions": parser.get_format_instructions()},
         )
@@ -198,9 +245,13 @@ class ChainPollEval(BaseEval):
         return records
 
     def _calculate_cp_score(self, x: pd.Series) -> float:
-        yes_records = len([item for item in x["record"] if item["judgement"].lower() == "yes"])
-        # calculate chain poll score
-        cp_score = yes_records / self.TOTAL_RUNS
+        try:
+            yes_records = len([item for item in x["record"] if item["judgement"].lower() == "yes"])
+            # calculate chain poll score
+            cp_score = yes_records / self.TOTAL_RUNS
+        except KeyError:
+            cp_score = None
+        
         return cp_score
     
     def _calculate_ragas_score(self, question: list, answer: list, contexts: list) -> pd.Series:
@@ -226,7 +277,7 @@ class ChainPollEval(BaseEval):
         records = []
         # define rate limit
         @sleep_and_retry
-        @limits(calls=10, period=200)
+        @limits(calls=20, period=250)
         def rate_limited_invoke_call(prompt: str) -> dict:
             record = []
             for i in range(5):
@@ -258,15 +309,22 @@ class ChainPollEval(BaseEval):
         context = ""
         if len(x["unrendered_prompt"]) == 1:
             context = x["unrendered_prompt"][0]
+            context = context.replace('"', '\"')
+            context = context.replace("'", "\'")
         else:
             for doc in x["unrendered_prompt"]:
+                doc = doc.replace('"', '\"')
+                doc = doc.replace("'", "\'")
                 context += f"- {doc}\n"
-
         prompt = CP_PROMPT.format(
             context = context,
-            response = x["generations"]
+            question = x["question"],
+            response = x["generations"],
         )
         return prompt
+    
+    def _extract_contexts(self, x: list[dict]) -> str:
+        return [context["snippet"] for context in literal_eval(x)]
     
     def _extract_question(self, x: str) -> str:
         # Using re.search to find the question directly
@@ -296,8 +354,13 @@ class ChainPollEval(BaseEval):
         return boolean_str == "True"
     
     def _extract_generation(self, x: str) -> str:
-        # convert string to Python object
         generation_list = literal_eval(x)
-        # access the generation
-        generation = generation_list[0]
+        if self.docs:
+            generation_list = generation_list[0]
+            answer_match = re.search(r'Answer:(.*?)\nGrounded answer:', generation_list, re.DOTALL)
+            if answer_match:
+                generation = answer_match.group(1).strip()
+        else:
+            # access the generation
+            generation = generation_list[0]
         return generation
