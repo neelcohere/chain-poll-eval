@@ -55,13 +55,13 @@ SAMPLE_JSON = """
 ## JSON Output Example
 Here is an output example:
 {
-    "reasonings": [
-        {"document": 1, "reasoning": "document 1 Elizabeths role in..."},
-        {"document": 2, "reasoning": "Document 2 captures the concept of the book, A Final Problem really..."},
+    \"reasonings\": [
+        {\"document\": 1, \"reasoning\": \"document 1 Elizabeths role in...\"},
+        {\"document\": 2, \"reasoning\": \"Document 2 captures the concept of the book, A Final Problem really...\"},
         ...
     ],
-    "summary": "Among the documents provided, only...",
-    "judgement": "Yes"
+    \"summary\": \"Among the documents provided, only...\",
+    \"judgement\": \"Yes\"
 }
 """
 
@@ -165,7 +165,7 @@ class ChainPollEval(BaseEval):
         # generate judgement for each record
         parser = JsonOutputParser(pydantic_object=Record)
         cp_prompt = PromptTemplate(
-            template="{prompt}" + SAMPLE_JSON + "\n## Format instructions\n{format_instructions}",
+            template="{prompt}" + "\n## Format instructions\n{format_instructions}",
             input_variables=["prompt"],
             partial_variables={"format_instructions": parser.get_format_instructions()},
         )
@@ -277,7 +277,7 @@ class ChainPollEval(BaseEval):
         records = []
         # define rate limit
         @sleep_and_retry
-        @limits(calls=20, period=250)
+        @limits(calls=20, period=100)
         def rate_limited_invoke_call(prompt: str) -> dict:
             record = []
             for i in range(5):
